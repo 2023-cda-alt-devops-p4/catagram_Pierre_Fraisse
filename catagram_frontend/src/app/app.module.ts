@@ -8,6 +8,11 @@ import { UmlComponent } from './pages/uml/uml.component';
 import { MeriseComponent } from './pages/merise/merise.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { CardComponent } from './components/card/card.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { CardMiniComponent } from './components/card-mini/card-mini.component';
+import { AccordionComponent } from './components/accordion/accordion.component';
+import { HamburgerComponent } from './components/hamburger/hamburger.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +21,12 @@ import { CardComponent } from './components/card/card.component';
     UmlComponent,
     MeriseComponent,
     NavigationComponent,
-    CardComponent
+    CardComponent,
+    HeaderComponent,
+    FooterComponent,
+    CardMiniComponent,
+    AccordionComponent,
+    HamburgerComponent
   ],
   imports: [
     BrowserModule,
