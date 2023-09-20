@@ -1,10 +1,22 @@
-import { Component } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+
+interface GlobalDescription {
+  id: number;
+  title: string;
+  description: string;
+  link: string;
+}
 
 @Component({
   selector: 'app-home-card',
   templateUrl: './home-card.component.html',
   styleUrls: ['./home-card.component.css']
 })
-export class HomeCardComponent {
+export class HomeCardComponent implements OnInit {
+
+  @Input() description!: GlobalDescription;
+
+  ngOnInit(): void {
+  }
 
 }

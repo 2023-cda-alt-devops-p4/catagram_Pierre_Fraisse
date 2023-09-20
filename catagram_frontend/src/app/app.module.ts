@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomepageComponent } from './pages/homepage/homepage.component';
@@ -13,6 +12,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { CardMiniComponent } from './components/card-mini/card-mini.component';
 import { AccordionComponent } from './components/accordion/accordion.component';
 import { HamburgerComponent } from './components/hamburger/hamburger.component';
+import { HomeCardComponent } from './components/home-card/home-card.component';
 
 @NgModule({
   declarations: [
@@ -26,11 +26,12 @@ import { HamburgerComponent } from './components/hamburger/hamburger.component';
     FooterComponent,
     CardMiniComponent,
     AccordionComponent,
-    HamburgerComponent
+    HamburgerComponent,
+    HomeCardComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
