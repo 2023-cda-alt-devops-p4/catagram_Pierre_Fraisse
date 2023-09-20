@@ -1,0 +1,13 @@
+<h3 class="accordion-header" (click)="toggleAccordion()">{{ dataModelTitle }}</h3>
+<div class="type-container" [class.collapsed]="!accordionHeaderExpanded">
+    <div *ngFor="let type of Object.keys(groupedDiagrams)" class="accordion">
+        <h4 class="type-header" (click)="toggleAccordion(type)">
+            {{ type }}
+        </h4>
+        <div [class.collapsed]="!isExpanded[type]" class="accordion-content">
+            <ul class="diagrams-list">
+                <li class="diagram-title" routerLink="{{ dataModelTitle }}" *ngFor="let diagram of groupedDiagrams[type]">{{ diagram.title }}</li>
+            </ul>
+        </div>
+    </div>
+</div>
