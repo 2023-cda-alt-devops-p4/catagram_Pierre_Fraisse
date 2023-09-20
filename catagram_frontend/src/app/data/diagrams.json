@@ -135,11 +135,56 @@
     "diagrams": [
       {
         "id": 1,
-        "title": "",
-        "type": "",
+        "title": "Modèle conceptuel de données - MCD",
+        "type": "Modèles de données",
+        "shortDescription": "Structurer les données de manière à éviter les redondances.",
+        "longDescription": "Egalement appelé modèle entité-association, permet de structurer les données de manière 'inteligente' afin d'éviter les redondances d'informations.\nOn déduit du MCD la base de données du futur outil.\nLes informations sont regroupées en entités : regroupement d'information permettant de définir un objet ou un individu au sein du système d'information. L'entité dispose d'attributs/propriétés correspondant à la liste des informations la définissant ainsi que d'un identifiant (id).",
+        "imageUrl": "../../assets/images/merise/mcd.webp",
+        "source": ""
+      },
+      {
+        "id": 2,
+        "title": "MLD",
+        "type": "Modèles de données",
         "shortDescription": "",
         "longDescription": "",
-        "imageUrl": "../../assets/images/merise/",
+        "imageUrl": "../../assets/images/merise/mld.webp",
+        "source": ""
+      },
+      {
+        "id": 3,
+        "title": "MPD",
+        "type": "Modèles de données",
+        "shortDescription": "",
+        "longDescription": "",
+        "imageUrl": "../../assets/images/merise/mpd.webp",
+        "source": ""
+      },
+      {
+        "id": 4,
+        "title": "Dictionnaire de données",
+        "type": "Modèles de données",
+        "shortDescription": "",
+        "longDescription": "",
+        "imageUrl": "../../assets/images/merise/dictionnaire.webp",
+        "source": ""
+      },
+      {
+        "id": 5,
+        "title": "MCT",
+        "type": "Modèles de traitement",
+        "shortDescription": "",
+        "longDescription": "",
+        "imageUrl": "../../assets/images/merise/mct.webp",
+        "source": ""
+      },
+      {
+        "id": 6,
+        "title": "MOT",
+        "type": "Modèles de traitement",
+        "shortDescription": "",
+        "longDescription": "",
+        "imageUrl": "../../assets/images/merise/mot.webp",
         "source": ""
       }
     ]
