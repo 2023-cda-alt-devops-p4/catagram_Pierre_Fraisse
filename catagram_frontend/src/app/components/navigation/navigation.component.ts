@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import * as dataModels from '../../data/diagrams.json';
 
 @Component({
   selector: 'app-navigation',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./navigation.component.css']
 })
 export class NavigationComponent {
-
+  dataModels: any = (dataModels as any).default;
 }

@@ -1,0 +1,147 @@
+[
+  {
+    "dataModel": "uml",
+    "diagrams": [
+      {
+        "id": 1,
+        "title": "Diagramme de classe",
+        "type": "Structurel",
+        "shortDescription": "Diagramme le plus employé, exposant la structure statique d'un système.",
+        "longDescription": "Étant donné que de nombreux logiciels reposent sur la programmation orientée objet, dans laquelle les développeurs définissent différentes fonctions pouvant être utilisées, les diagrammes de classes sont le type de diagramme UML le plus couramment employé. Les diagrammes de classes exposent la structure statique d’un système, notamment les classes, leurs attributs et leurs comportements, ainsi que les liens entre chacune d’elles.\n\nUne classe est représentée par un rectangle contenant trois compartiments empilés verticalement. Le compartiment supérieur contient le nom de la classe et est indispensable, tandis que les deux compartiments inférieurs fournissent des détails sur les attributs et les opérations ou comportements de la classe.",
+        "imageUrl": "../../assets/images/uml/classe.webp",
+        "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
+      },
+      {
+        "id": 2,
+        "title": "Diagramme de composants",
+        "type": "Structurel",
+        "shortDescription": "Découpage d'un système complexe en composants de taille réduite.",
+        "longDescription": "Un diagramme de composants est en réalité une version plus spécifique du diagramme de classes, et les mêmes règles de notation s’appliquent aux deux. Ce type de visuel découpe un système complexe en composants de taille réduite et représente les interactions entre ces derniers.",
+        "imageUrl": "../../assets/images/uml/composants.webp",
+        "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
+      },
+      {
+        "id": 3,
+        "title": "Diagramme de déploiement",
+        "type": "Structurel",
+        "shortDescription": "Indique la manière dont les logiciels sont déployés",
+        "longDescription": "Les diagrammes de déploiement indiquent la manière dont les logiciels sont déployés sur les composants matériels d’un système. Ces visuels sont particulièrement utiles pour les ingénieurs système et ils illustrent généralement les performances, l’évolutivité, la maintenabilité et la portabilité. Lorsque les composants matériels sont représentés les uns par rapport aux autres, il est plus facile de suivre l’ensemble de votre infrastructure informatique et de s’assurer que tous les éléments sont pris en compte lors d’un déploiement.",
+        "imageUrl": "../../assets/images/uml/deploiment.webp",
+        "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
+      },
+      {
+        "id": 4,
+        "title": "Diagramme de structure composite",
+        "type": "Structurel",
+        "shortDescription": "Plans de la structure interne d’un classifieur",
+        "longDescription": "Ces diagrammes sont en vérité des plans de la structure interne d’un classifieur. Ils peuvent également être utilisés pour illustrer le comportement d’une collaboration ou les interactions du classifieur avec son environnement par le biais des ports. Ils permettent de représenter facilement les composants internes de tout type d’équipement pour mieux en comprendre le fonctionnement.",
+        "imageUrl": "../../assets/images/uml/composite.webp",
+        "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
+      },
+      {
+        "id": 5,
+        "title": "Diagramme d'objets",
+        "type": "Structurel",
+        "shortDescription": "Représentation de structures de données à un moment spécifique",
+        "longDescription": "Les diagrammes d’objets présentent des exemples de structures de données à un moment spécifique. Vous pouvez utiliser un diagramme de classes pour représenter une structure, puis des diagrammes d’objets comme scénarios de test pour vérifier que votre diagramme de classes est bien exhaustif. Vous pouvez également créer un diagramme d’objets pour recueillir des informations sur les éléments de modèle et leurs liens.",
+        "imageUrl": "../../assets/images/uml/objets.webp",
+        "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
+      },
+      {
+        "id": 6,
+        "title": "Diagramme de paquetages",
+        "type": "Structurel",
+        "shortDescription": "Illustration des dépendances entre les différents paquetages d'un système",
+        "longDescription": "Les diagrammes de paquetages sont utilisés pour illustrer les dépendances entre les différents paquetages d’un système. Ces derniers, représentés sous la forme d’un dossier de fichiers, organisent en groupes les éléments de modèle, tels que les cas d’utilisation ou les classes.",
+        "imageUrl": "../../assets/images/uml/paquetages.webp",
+        "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
+      },
+      {
+        "id": 7,
+        "title": "Diagramme de profil",
+        "type": "Structurel",
+        "shortDescription": "Mécanisme de personnalisation des modèles.",
+        "longDescription": "Récemment ajoutés à UML 2.0, les diagrammes de profil sont uniques et rarement utilisés dans les spécifications. Un diagramme de profil est mieux compris comme un mécanisme d'extensibilité pour personnaliser les modèles UML pour des domaines et des plates-formes spécifiques.\n\n",
+        "imageUrl": "../../assets/images/uml/profil.webp",
+        "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
+      },
+      {
+        "id": 8,
+        "title": "Diagramme de temps",
+        "type": "Comportemental",
+        "shortDescription": "Illustration des interactions des données dans un temps donné",
+        "longDescription": "Souvent décrit comme un diagramme de séquence inversé, un diagramme de temps montre comment les objets interagissent entre eux dans un laps de temps donné. Utilisez ces diagrammes pour déterminer la durée de chaque étape d’un processus et identifier les améliorations à apporter.",
+        "imageUrl": "../../assets/images/uml/temps.webp",
+        "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
+      },
+      {
+        "id": 9,
+        "title": "Diagramme d'aperçu des interactions",
+        "type": "Comportemental",
+        "shortDescription": "Illustration du flux de contrôle entre des nœuds en interaction",
+        "longDescription": "Ce diagramme donne un aperçu du flux de contrôle entre des nœuds en interaction. Ceux-ci incluent les nœuds initiaux, les nœuds finaux de flux, les nœuds finaux d’activité, les nœuds de décision, les nœuds de fusion, les nœuds de bifurcation et les nœuds de jonction.",
+        "imageUrl": "../../assets/images/uml/interactions.webp",
+        "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
+      },
+      {
+        "id": 10,
+        "title": "Diagramme de communication",
+        "type": "Comportemental",
+        "shortDescription": "Illustration des liens entre les objets",
+        "longDescription": "Les diagrammes de communication, autrefois appelés diagrammes de collaboration, illustrent les liens entre les objets. Ils modélisent la manière dont ces derniers s’associent et se connectent par le biais de messages dans le cadre de la conception architecturale d’un système. Ils peuvent également représenter des scénarios alternatifs dans des cas d’utilisation ou des opérations qui nécessitent la collaboration de différents objets et interactions.",
+        "imageUrl": "../../assets/images/uml/communication.webp",
+        "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
+      },
+      {
+        "id": 11,
+        "title": "Modèle de diagramme états-transitions",
+        "type": "Comportemental",
+        "shortDescription": "Description des états et des transitions",
+        "longDescription": "Les diagrammes états-transitions, vous l’aurez deviné, décrivent les états et les transitions. Un état correspond aux différentes combinaisons d’informations qu’un objet peut contenir, et ce type de diagramme UML permet de visualiser tous les états possibles et la manière dont l’objet passe d’un état à l’autre.",
+        "imageUrl": "../../assets/images/uml/etats-transitions.webp",
+        "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
+      },
+      {
+        "id": 12,
+        "title": "Diagramme de cas d'utilisation",
+        "type": "Comportemental",
+        "shortDescription": "Représentation des interactions entre les utilisateurs et le système",
+        "longDescription": "Les diagrammes de cas d’utilisation modélisent la manière dont les utilisateurs, représentés sous forme de figurines appelées « acteurs », interagissent avec le système. Ce type de diagramme UML est une vue d’ensemble des relations entre les acteurs et les systèmes, ce qui en fait un excellent outil pour présenter votre système à un public non technique.",
+        "imageUrl": "../../assets/images/uml/cas-utilisation.webp",
+        "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
+      },
+      {
+        "id": 13,
+        "title": "Diagramme de séquence",
+        "type": "Comportemental",
+        "shortDescription": "Ordre d'interaction des objets",
+        "longDescription": "Un diagramme de séquence, parfois appelé diagramme d’événements ou scénario d’événements, montre l’ordre dans lequel les objets interagissent. Ils vous permettent ainsi de représenter visuellement des scénarios d’exécution simples.",
+        "imageUrl": "../../assets/images/uml/sequence.webp",
+        "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
+      },
+      {
+        "id": 14,
+        "title": "Diagramme d'activités",
+        "type": "Comportemental",
+        "shortDescription": "Illustration des étapes réalisées dans un cas d’utilisation",
+        "longDescription": "Les diagrammes d’activités représentent les étapes réalisées dans un cas d’utilisation. Les activités peuvent être séquentielles, ramifiées ou simultanées. Ce type de diagramme UML est utilisé pour montrer le comportement dynamique d’un système, mais il peut également être utile dans la modélisation des processus métier.\n\n",
+        "imageUrl": "../../assets/images/uml/activites.webp",
+        "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
+      }
+    ]
+  },
+  {
+    "dataModel": "merise",
+    "diagrams": [
+      {
+        "id": 1,
+        "title": "",
+        "type": "",
+        "shortDescription": "",
+        "longDescription": "",
+        "imageUrl": "../../assets/images/merise/",
+        "source": ""
+      }
+    ]
+  }
+]
