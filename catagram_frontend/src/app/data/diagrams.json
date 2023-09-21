@@ -135,6 +135,42 @@
     "diagrams": [
       {
         "id": 1,
+        "title": "Modèle Conceptuel de Communication - MCC",
+        "type": "Modèles de communication",
+        "shortDescription": "",
+        "longDescription": "",
+        "imageUrl": "../../assets/images/merise/mcc.webp",
+        "source": ""
+      },
+      {
+        "id": 2,
+        "title": "Modèle Organisationnel de Communication - MOC",
+        "type": "Modèles de communication",
+        "shortDescription": "",
+        "longDescription": "",
+        "imageUrl": "../../assets/images/merise/moc.webp",
+        "source": ""
+      },
+      {
+        "id": 3,
+        "title": "Modèle Logique de Communication - MLC",
+        "type": "Modèles de communication",
+        "shortDescription": "",
+        "longDescription": "",
+        "imageUrl": "../../assets/images/merise/mlc.webp",
+        "source": ""
+      },
+      {
+        "id": 4,
+        "title": "Modèle Physique de Communication - MPC",
+        "type": "Modèles de communication",
+        "shortDescription": "",
+        "longDescription": "",
+        "imageUrl": "../../assets/images/merise/mpc.webp",
+        "source": ""
+      },
+      {
+        "id": 5,
         "title": "Modèle conceptuel de données - MCD",
         "type": "Modèles de données",
         "shortDescription": "Structurer les données de manière à éviter les redondances.",
@@ -143,8 +179,17 @@
         "source": ""
       },
       {
-        "id": 2,
-        "title": "MLD",
+        "id": 6,
+        "title": "Modèle Organisationnel de Données - MOD",
+        "type": "Modèles de données",
+        "shortDescription": "",
+        "longDescription": "",
+        "imageUrl": "../../assets/images/merise/mod.webp",
+        "source": ""
+      },
+      {
+        "id": 7,
+        "title": "Modèle Logique de Données - MLD",
         "type": "Modèles de données",
         "shortDescription": "",
         "longDescription": "",
@@ -152,8 +197,8 @@
         "source": ""
       },
       {
-        "id": 3,
-        "title": "MPD",
+        "id": 8,
+        "title": "Modèle Physique de Données - MPD",
         "type": "Modèles de données",
         "shortDescription": "",
         "longDescription": "",
@@ -161,17 +206,8 @@
         "source": ""
       },
       {
-        "id": 4,
-        "title": "Dictionnaire de données",
-        "type": "Modèles de données",
-        "shortDescription": "",
-        "longDescription": "",
-        "imageUrl": "../../assets/images/merise/dictionnaire.webp",
-        "source": ""
-      },
-      {
-        "id": 5,
-        "title": "MCT",
+        "id": 9,
+        "title": "Modèle Conceptuel de Traitement - MCT",
         "type": "Modèles de traitement",
         "shortDescription": "",
         "longDescription": "",
@@ -179,12 +215,30 @@
         "source": ""
       },
       {
-        "id": 6,
-        "title": "MOT",
+        "id": 10,
+        "title": "Modèle Organisationnel de Traitement - MOT",
         "type": "Modèles de traitement",
         "shortDescription": "",
         "longDescription": "",
         "imageUrl": "../../assets/images/merise/mot.webp",
+        "source": ""
+      },
+      {
+        "id": 11,
+        "title": "Modèle Logique de Traitement - MLT",
+        "type": "Modèles de traitement",
+        "shortDescription": "",
+        "longDescription": "",
+        "imageUrl": "../../assets/images/merise/mlt.webp",
+        "source": ""
+      },
+      {
+        "id": 12,
+        "title": "Modèle Physique de Traitement - MPT",
+        "type": "Modèles de traitement",
+        "shortDescription": "",
+        "longDescription": "",
+        "imageUrl": "../../assets/images/merise/mpt.webp",
         "source": ""
       }
     ]
