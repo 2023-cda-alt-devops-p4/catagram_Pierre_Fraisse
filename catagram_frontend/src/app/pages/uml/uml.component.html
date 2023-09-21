@@ -1,4 +1,5 @@
 <div class="cards-container" *ngFor="let diagram of umlDiagrams">
-  <app-card-mini [diagram]="diagram"></app-card-mini>
+  <app-card-mini [diagram]="diagram" [openModal]="openModal"></app-card-mini>
+  <app-card *ngIf="showModal" [showModal]="showModal" (close)="closeModal()"></app-card>
 </div>
 

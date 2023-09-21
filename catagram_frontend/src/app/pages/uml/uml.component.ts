@@ -7,4 +7,14 @@ import diagramsData from '../../data/diagrams.json'
 })
 export class UmlComponent {
   umlDiagrams: any = diagramsData[0].diagrams;
+
+  showModal: boolean = false;
+
+  openModal() {
+    this.showModal = true;
+  }
+
+  closeModal() {
+    this.showModal = false;
+  }
 }
