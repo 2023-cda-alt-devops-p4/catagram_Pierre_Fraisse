@@ -148,7 +148,7 @@
         "type": "Modèles de communication",
         "shortDescription": "Comprendre, analyser et optimiser la communication au sein d'une organisation.",
         "longDescription": "Le modèle organisationnel de communication va se focaliser d'avantage sur les moyens à mettre en oeuvre, les outils à adopter afin de réaliser le modèle conceptuel de communication. ",
-        "imageUrl": "/assets/images/merise/moc.webp",
+        "imageUrl": "",
         "source": "https://www.memoireonline.com/04/12/5732/m_Modelisation-dun-reseau-informatique-selon-le-vade-mecum-du-gestionnaire-dune-institution-d22.html"
       },
       {
@@ -157,7 +157,7 @@
         "type": "Modèles de communication",
         "shortDescription": "Penser la logique sous-jacente au transfert de communication",
         "longDescription": "Le MLC va conceptualiser le cheminement des communications entre les utilisateurs et les bases de données. Comment les communications vont-elle être cherchées ? transformées ?, délivrées ? Cela concerne notamment l'architecture logiciel, les protocoles (TCP/IP, sécurité...), le format des messages (XML, JSON...).",
-        "imageUrl": "/assets/images/merise/mlc.webp",
+        "imageUrl": "",
         "source": "https://www.memoireonline.com/04/12/5732/m_Modelisation-dun-reseau-informatique-selon-le-vade-mecum-du-gestionnaire-dune-institution-d23.html"
       },
       {
@@ -166,7 +166,7 @@
         "type": "Modèles de communication",
         "shortDescription": "Penser le hardware et choisir les softwares pour la gestion de la communication.",
         "longDescription": "Quels types de serveur ? les adresses IP, les ports ? Les logiciels de sécurité, firewall...",
-        "imageUrl": "/assets/images/merise/mpc.webp",
+        "imageUrl": "",
         "source": ""
       },
       {
@@ -184,7 +184,7 @@
         "type": "Modèles de données",
         "shortDescription": "Gestion des droits sur la base de données.",
         "longDescription": "Le MOD précise les droits des profils d'utilisateurs au sein de l'organisation : ces droits suivent le modèle CRUD (Create, Read, Update, Delete) de requêtes http.",
-        "imageUrl": "/assets/images/merise/mod.webp",
+        "imageUrl": "",
         "source": "https://www.orleans-informatique.com/info/cgo/cours/Fiche%20-%20MOD.pdf"
       },
       {
@@ -238,7 +238,7 @@
         "type": "Modèles de traitement",
         "shortDescription": "Architecture du programme.",
         "longDescription": "Le MPT consiste à détailler l'architecture du logiciel de traitement sous forme d'arboressence.",
-        "imageUrl": "/assets/images/merise/mpt.webp",
+        "imageUrl": "",
         "source": "https://www.memoireonline.com/08/11/4671/m_Mise-en-oeuvre-dune-solution-informatique-pour-loptimisation-de-la-gestion-des-ouvrages-dans-u26.html"
       }
     ]
