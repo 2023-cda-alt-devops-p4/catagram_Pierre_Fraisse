@@ -1,1 +1,8 @@
-<p>card works!</p>
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">{{ diagram?.title }}</h5>
+    <img src="{{diagram.imageUrl}}" alt="{{diagram.title}}">
+    <p class="card-text">{{ diagram?.longDescription }}</p>
+    <a href="{{diagram.source}}">Source</a>
+  </div>
+</div>

@@ -1,2 +1,4 @@
-<p>uml works!</p>
-<app-card></app-card>
+<div class="cards-container" *ngFor="let diagram of umlDiagrams">
+  <app-card [diagram]="diagram"></app-card>
+</div>
+
