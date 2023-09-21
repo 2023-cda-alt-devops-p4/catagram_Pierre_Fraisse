@@ -1,7 +1,9 @@
 <div class="card">
   <div class="card-body">
     <h5 class="card-title">{{ diagram?.title }}</h5>
-    <img src="{{diagram.imageUrl}}" alt="{{diagram.title}}">
+    <div class="img-container" *ngIf="diagram?.imageUrl">
+      <img [src]="diagram.imageUrl" [alt]="diagram.title">
+    </div>
     <p class="card-text">{{ diagram?.longDescription }}</p>
     <a href="{{diagram.source}}">Source</a>
   </div>
