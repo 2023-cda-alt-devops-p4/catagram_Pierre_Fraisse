@@ -137,10 +137,10 @@
         "id": 1,
         "title": "Modèle Conceptuel de Communication - MCC",
         "type": "Modèles de communication",
-        "shortDescription": "",
-        "longDescription": "",
+        "shortDescription": "Modéliser la communication entre les différents acteurs ",
+        "longDescription": "Le MCC représente les acteurs et arcs de communication (direction et voie de communication) entre eux. Nous pouvons définir deux types d'acteurs : les acteurs externes (ex: client, prestataire...) et internes (ex: service des ventes, comptabilité, RH...) au référenciel (entreprise).",
         "imageUrl": "../../assets/images/merise/mcc.webp",
-        "source": ""
+        "source": "http://www.colar.net/as/cours/analyse/mcc.html#:~:text=Exercice.-,1.,projet%20ou%20d'une%20application."
       },
       {
         "id": 2,
@@ -209,10 +209,10 @@
         "id": 9,
         "title": "Modèle Conceptuel de Traitement - MCT",
         "type": "Modèles de traitement",
-        "shortDescription": "",
-        "longDescription": "",
+        "shortDescription": "Modéliser les traitements d'une application.",
+        "longDescription": "Représente chaque traitement en tant que processus (succession d'étapes visant à accomplir une tâche, par exemple le traitement d'une commande client) composé d'évenements (condition qui déclenche un processus), d'opérations (action faisant déclenchée par l'évenement et réalisée dans le but d'obtenir un résultat) et de résultats (produit final ou sortie de processus).",
         "imageUrl": "../../assets/images/merise/mct.webp",
-        "source": ""
+        "source": "http://www.colar.net/as/cours/analyse/mct.html"
       },
       {
         "id": 10,
