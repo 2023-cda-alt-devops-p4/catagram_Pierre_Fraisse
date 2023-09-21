@@ -8,7 +8,7 @@
         "type": "Structurel",
         "shortDescription": "Diagramme le plus employé, exposant la structure statique d'un système.",
         "longDescription": "Étant donné que de nombreux logiciels reposent sur la programmation orientée objet, dans laquelle les développeurs définissent différentes fonctions pouvant être utilisées, les diagrammes de classes sont le type de diagramme UML le plus couramment employé. Les diagrammes de classes exposent la structure statique d’un système, notamment les classes, leurs attributs et leurs comportements, ainsi que les liens entre chacune d’elles.\n\nUne classe est représentée par un rectangle contenant trois compartiments empilés verticalement. Le compartiment supérieur contient le nom de la classe et est indispensable, tandis que les deux compartiments inférieurs fournissent des détails sur les attributs et les opérations ou comportements de la classe.",
-        "imageUrl": "../../assets/images/uml/classe.webp",
+        "imageUrl": "/assets/images/uml/classe.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
       {
@@ -17,7 +17,7 @@
         "type": "Structurel",
         "shortDescription": "Découpage d'un système complexe en composants de taille réduite.",
         "longDescription": "Un diagramme de composants est en réalité une version plus spécifique du diagramme de classes, et les mêmes règles de notation s’appliquent aux deux. Ce type de visuel découpe un système complexe en composants de taille réduite et représente les interactions entre ces derniers.",
-        "imageUrl": "../../assets/images/uml/composants.webp",
+        "imageUrl": "/assets/images/uml/composants.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
       {
@@ -26,7 +26,7 @@
         "type": "Structurel",
         "shortDescription": "Indique la manière dont les logiciels sont déployés",
         "longDescription": "Les diagrammes de déploiement indiquent la manière dont les logiciels sont déployés sur les composants matériels d’un système. Ces visuels sont particulièrement utiles pour les ingénieurs système et ils illustrent généralement les performances, l’évolutivité, la maintenabilité et la portabilité. Lorsque les composants matériels sont représentés les uns par rapport aux autres, il est plus facile de suivre l’ensemble de votre infrastructure informatique et de s’assurer que tous les éléments sont pris en compte lors d’un déploiement.",
-        "imageUrl": "../../assets/images/uml/deploiment.webp",
+        "imageUrl": "/assets/images/uml/deploiment.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
       {
@@ -35,7 +35,7 @@
         "type": "Structurel",
         "shortDescription": "Plans de la structure interne d’un classifieur",
         "longDescription": "Ces diagrammes sont en vérité des plans de la structure interne d’un classifieur. Ils peuvent également être utilisés pour illustrer le comportement d’une collaboration ou les interactions du classifieur avec son environnement par le biais des ports. Ils permettent de représenter facilement les composants internes de tout type d’équipement pour mieux en comprendre le fonctionnement.",
-        "imageUrl": "../../assets/images/uml/composite.webp",
+        "imageUrl": "/assets/images/uml/composite.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
       {
@@ -44,7 +44,7 @@
         "type": "Structurel",
         "shortDescription": "Représentation de structures de données à un moment spécifique",
         "longDescription": "Les diagrammes d’objets présentent des exemples de structures de données à un moment spécifique. Vous pouvez utiliser un diagramme de classes pour représenter une structure, puis des diagrammes d’objets comme scénarios de test pour vérifier que votre diagramme de classes est bien exhaustif. Vous pouvez également créer un diagramme d’objets pour recueillir des informations sur les éléments de modèle et leurs liens.",
-        "imageUrl": "../../assets/images/uml/objets.webp",
+        "imageUrl": "/assets/images/uml/objets.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
       {
@@ -53,7 +53,7 @@
         "type": "Structurel",
         "shortDescription": "Illustration des dépendances entre les différents paquetages d'un système",
         "longDescription": "Les diagrammes de paquetages sont utilisés pour illustrer les dépendances entre les différents paquetages d’un système. Ces derniers, représentés sous la forme d’un dossier de fichiers, organisent en groupes les éléments de modèle, tels que les cas d’utilisation ou les classes.",
-        "imageUrl": "../../assets/images/uml/paquetages.webp",
+        "imageUrl": "/assets/images/uml/paquetages.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
       {
@@ -62,7 +62,7 @@
         "type": "Structurel",
         "shortDescription": "Mécanisme de personnalisation des modèles.",
         "longDescription": "Récemment ajoutés à UML 2.0, les diagrammes de profil sont uniques et rarement utilisés dans les spécifications. Un diagramme de profil est mieux compris comme un mécanisme d'extensibilité pour personnaliser les modèles UML pour des domaines et des plates-formes spécifiques.\n\n",
-        "imageUrl": "../../assets/images/uml/profil.webp",
+        "imageUrl": "/assets/images/uml/profil.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
       {
@@ -71,7 +71,7 @@
         "type": "Comportemental",
         "shortDescription": "Illustration des interactions des données dans un temps donné",
         "longDescription": "Souvent décrit comme un diagramme de séquence inversé, un diagramme de temps montre comment les objets interagissent entre eux dans un laps de temps donné. Utilisez ces diagrammes pour déterminer la durée de chaque étape d’un processus et identifier les améliorations à apporter.",
-        "imageUrl": "../../assets/images/uml/temps.webp",
+        "imageUrl": "/assets/images/uml/temps.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
       {
@@ -80,7 +80,7 @@
         "type": "Comportemental",
         "shortDescription": "Illustration du flux de contrôle entre des nœuds en interaction",
         "longDescription": "Ce diagramme donne un aperçu du flux de contrôle entre des nœuds en interaction. Ceux-ci incluent les nœuds initiaux, les nœuds finaux de flux, les nœuds finaux d’activité, les nœuds de décision, les nœuds de fusion, les nœuds de bifurcation et les nœuds de jonction.",
-        "imageUrl": "../../assets/images/uml/interactions.webp",
+        "imageUrl": "/assets/images/uml/interactions.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
       {
@@ -89,7 +89,7 @@
         "type": "Comportemental",
         "shortDescription": "Illustration des liens entre les objets",
         "longDescription": "Les diagrammes de communication, autrefois appelés diagrammes de collaboration, illustrent les liens entre les objets. Ils modélisent la manière dont ces derniers s’associent et se connectent par le biais de messages dans le cadre de la conception architecturale d’un système. Ils peuvent également représenter des scénarios alternatifs dans des cas d’utilisation ou des opérations qui nécessitent la collaboration de différents objets et interactions.",
-        "imageUrl": "../../assets/images/uml/communication.webp",
+        "imageUrl": "/assets/images/uml/communication.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
       {
@@ -98,7 +98,7 @@
         "type": "Comportemental",
         "shortDescription": "Description des états et des transitions",
         "longDescription": "Les diagrammes états-transitions, vous l’aurez deviné, décrivent les états et les transitions. Un état correspond aux différentes combinaisons d’informations qu’un objet peut contenir, et ce type de diagramme UML permet de visualiser tous les états possibles et la manière dont l’objet passe d’un état à l’autre.",
-        "imageUrl": "../../assets/images/uml/etats-transitions.webp",
+        "imageUrl": "/assets/images/uml/etats-transitions.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
       {
@@ -107,7 +107,7 @@
         "type": "Comportemental",
         "shortDescription": "Représentation des interactions entre les utilisateurs et le système",
         "longDescription": "Les diagrammes de cas d’utilisation modélisent la manière dont les utilisateurs, représentés sous forme de figurines appelées « acteurs », interagissent avec le système. Ce type de diagramme UML est une vue d’ensemble des relations entre les acteurs et les systèmes, ce qui en fait un excellent outil pour présenter votre système à un public non technique.",
-        "imageUrl": "../../assets/images/uml/cas-utilisation.webp",
+        "imageUrl": "/assets/images/uml/cas-utilisation.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
       {
@@ -116,7 +116,7 @@
         "type": "Comportemental",
         "shortDescription": "Ordre d'interaction des objets",
         "longDescription": "Un diagramme de séquence, parfois appelé diagramme d’événements ou scénario d’événements, montre l’ordre dans lequel les objets interagissent. Ils vous permettent ainsi de représenter visuellement des scénarios d’exécution simples.",
-        "imageUrl": "../../assets/images/uml/sequence.webp",
+        "imageUrl": "/assets/images/uml/sequence.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
       {
@@ -125,7 +125,7 @@
         "type": "Comportemental",
         "shortDescription": "Illustration des étapes réalisées dans un cas d’utilisation",
         "longDescription": "Les diagrammes d’activités représentent les étapes réalisées dans un cas d’utilisation. Les activités peuvent être séquentielles, ramifiées ou simultanées. Ce type de diagramme UML est utilisé pour montrer le comportement dynamique d’un système, mais il peut également être utile dans la modélisation des processus métier.\n\n",
-        "imageUrl": "../../assets/images/uml/activites.webp",
+        "imageUrl": "/assets/images/uml/activites.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       }
     ]
@@ -139,34 +139,34 @@
         "type": "Modèles de communication",
         "shortDescription": "Modéliser la communication entre les différents acteurs ",
         "longDescription": "Le MCC représente les acteurs et arcs de communication (direction et voie de communication) entre eux. Nous pouvons définir deux types d'acteurs : les acteurs externes (ex: client, prestataire...) et internes (ex: service des ventes, comptabilité, RH...) au référenciel (entreprise).",
-        "imageUrl": "../../assets/images/merise/mcc.webp",
+        "imageUrl": "/assets/images/merise/mcc.webp",
         "source": "http://www.colar.net/as/cours/analyse/mcc.html#:~:text=Exercice.-,1.,projet%20ou%20d'une%20application."
       },
       {
         "id": 2,
         "title": "Modèle Organisationnel de Communication - MOC",
         "type": "Modèles de communication",
-        "shortDescription": "",
-        "longDescription": "",
-        "imageUrl": "../../assets/images/merise/moc.webp",
-        "source": ""
+        "shortDescription": "Comprendre, analyser et optimiser la communication au sein d'une organisation.",
+        "longDescription": "Le modèle organisationnel de communication va se focaliser d'avantage sur les moyens à mettre en oeuvre, les outils à adopter afin de réaliser le modèle conceptuel de communication. ",
+        "imageUrl": "/assets/images/merise/moc.webp",
+        "source": "https://www.memoireonline.com/04/12/5732/m_Modelisation-dun-reseau-informatique-selon-le-vade-mecum-du-gestionnaire-dune-institution-d22.html"
       },
       {
         "id": 3,
         "title": "Modèle Logique de Communication - MLC",
         "type": "Modèles de communication",
-        "shortDescription": "",
-        "longDescription": "",
-        "imageUrl": "../../assets/images/merise/mlc.webp",
-        "source": ""
+        "shortDescription": "Penser la logique sous-jacente au transfert de communication",
+        "longDescription": "Le MLC va conceptualiser le cheminement des communications entre les utilisateurs et les bases de données. Comment les communications vont-elle être cherchées ? transformées ?, délivrées ? Cela concerne notamment l'architecture logiciel, les protocoles (TCP/IP, sécurité...), le format des messages (XML, JSON...).",
+        "imageUrl": "/assets/images/merise/mlc.webp",
+        "source": "https://www.memoireonline.com/04/12/5732/m_Modelisation-dun-reseau-informatique-selon-le-vade-mecum-du-gestionnaire-dune-institution-d23.html"
       },
       {
         "id": 4,
         "title": "Modèle Physique de Communication - MPC",
         "type": "Modèles de communication",
-        "shortDescription": "",
-        "longDescription": "",
-        "imageUrl": "../../assets/images/merise/mpc.webp",
+        "shortDescription": "Penser le hardware et choisir les softwares pour la gestion de la communication.",
+        "longDescription": "Quels types de serveur ? les adresses IP, les ports ? Les logiciels de sécurité, firewall...",
+        "imageUrl": "/assets/images/merise/mpc.webp",
         "source": ""
       },
       {
@@ -174,35 +174,35 @@
         "title": "Modèle conceptuel de données - MCD",
         "type": "Modèles de données",
         "shortDescription": "Structurer les données de manière à éviter les redondances.",
-        "longDescription": "Egalement appelé modèle entité-association, permet de structurer les données de manière 'inteligente' afin d'éviter les redondances d'informations.\nOn déduit du MCD la base de données du futur outil.\nLes informations sont regroupées en entités : regroupement d'information permettant de définir un objet ou un individu au sein du système d'information. L'entité dispose d'attributs/propriétés correspondant à la liste des informations la définissant ainsi que d'un identifiant (id).",
-        "imageUrl": "../../assets/images/merise/mcd.webp",
+        "longDescription": "Egalement appelé modèle entité-association, permet de structurer les données de manière 'inteligente' afin d'éviter, par exemple, les redondances d'informations.\nLes informations sont regroupées en entités : regroupement d'information permettant de définir un objet ou un individu au sein du système d'information. L'entité dispose d'attributs/propriétés correspondant à la liste des informations la définissant ainsi que d'un identifiant (id).",
+        "imageUrl": "/assets/images/merise/mcd.webp",
         "source": ""
       },
       {
         "id": 6,
         "title": "Modèle Organisationnel de Données - MOD",
         "type": "Modèles de données",
-        "shortDescription": "",
-        "longDescription": "",
-        "imageUrl": "../../assets/images/merise/mod.webp",
-        "source": ""
+        "shortDescription": "Gestion des droits sur la base de données.",
+        "longDescription": "Le MOD précise les droits des profils d'utilisateurs au sein de l'organisation : ces droits suivent le modèle CRUD (Create, Read, Update, Delete) de requêtes http.",
+        "imageUrl": "/assets/images/merise/mod.webp",
+        "source": "https://www.orleans-informatique.com/info/cgo/cours/Fiche%20-%20MOD.pdf"
       },
       {
         "id": 7,
         "title": "Modèle Logique de Données - MLD",
         "type": "Modèles de données",
-        "shortDescription": "",
-        "longDescription": "",
-        "imageUrl": "../../assets/images/merise/mld.webp",
-        "source": ""
+        "shortDescription": "Décrit comment les données sont stockées de manière générale",
+        "longDescription": "Va plus loin que le MCD dans le sens où l'on va établir la manière dont les données seront stockées, établi les clés primaires et étrangères, les relations entre les entités...",
+        "imageUrl": "/assets/images/merise/mld.webp",
+        "source": "https://web.maths.unsw.edu.au/~lafaye/CCM/merise/mld.htm"
       },
       {
         "id": 8,
         "title": "Modèle Physique de Données - MPD",
         "type": "Modèles de données",
-        "shortDescription": "",
-        "longDescription": "",
-        "imageUrl": "../../assets/images/merise/mpd.webp",
+        "shortDescription": "Implémente le modèle dans le SGBD.",
+        "longDescription": "Traduit en SQL les entités et leurs relation au sein du Système de Gestion de Base de Données.",
+        "imageUrl": "/assets/images/merise/mpd.webp",
         "source": ""
       },
       {
@@ -211,35 +211,35 @@
         "type": "Modèles de traitement",
         "shortDescription": "Modéliser les traitements d'une application.",
         "longDescription": "Représente chaque traitement en tant que processus (succession d'étapes visant à accomplir une tâche, par exemple le traitement d'une commande client) composé d'évenements (condition qui déclenche un processus), d'opérations (action faisant déclenchée par l'évenement et réalisée dans le but d'obtenir un résultat) et de résultats (produit final ou sortie de processus).",
-        "imageUrl": "../../assets/images/merise/mct.webp",
+        "imageUrl": "/assets/images/merise/mct.webp",
         "source": "http://www.colar.net/as/cours/analyse/mct.html"
       },
       {
         "id": 10,
         "title": "Modèle Organisationnel de Traitement - MOT",
         "type": "Modèles de traitement",
-        "shortDescription": "",
-        "longDescription": "",
-        "imageUrl": "../../assets/images/merise/mot.webp",
-        "source": ""
+        "shortDescription": "Décrit le temps, les ressources et le lieu allouées à la gestion des données.",
+        "longDescription": "Décrit les propriétés des traitements non mentionnées par le MCD (temps, ressources et lieu)",
+        "imageUrl": "/assets/images/merise/mot.webp",
+        "source": "https://web.maths.unsw.edu.au/~lafaye/CCM/merise/mot.htm"
       },
       {
         "id": 11,
         "title": "Modèle Logique de Traitement - MLT",
         "type": "Modèles de traitement",
-        "shortDescription": "",
-        "longDescription": "",
-        "imageUrl": "../../assets/images/merise/mlt.webp",
-        "source": ""
+        "shortDescription": "Logique métier du MOT",
+        "longDescription": "S'attache à comment l'information sera traitée, dans le logiciel, depuis la requête jusqu'à la délivrance de l'information.",
+        "imageUrl": "/assets/images/merise/mlt.webp",
+        "source": "https://www.memoireonline.com/11/19/11209/m_Conception-et-realisation-d-une-application-de-gestion-de-l-octroi-titres-parcellaire-dans-une-inst29.html#:~:text=Le%20mod%C3%A8le%20logique%20de%20traitement%20comprend%20la%20partie%20visible%2C%20la,le%20mod%C3%A8le%20logique%20de%20donn%C3%A9es."
       },
       {
         "id": 12,
         "title": "Modèle Physique de Traitement - MPT",
         "type": "Modèles de traitement",
-        "shortDescription": "",
-        "longDescription": "",
-        "imageUrl": "../../assets/images/merise/mpt.webp",
-        "source": ""
+        "shortDescription": "Architecture du programme.",
+        "longDescription": "Le MPT consiste à détailler l'architecture du logiciel de traitement sous forme d'arboressence.",
+        "imageUrl": "/assets/images/merise/mpt.webp",
+        "source": "https://www.memoireonline.com/08/11/4671/m_Mise-en-oeuvre-dune-solution-informatique-pour-loptimisation-de-la-gestion-des-ouvrages-dans-u26.html"
       }
     ]
   }
