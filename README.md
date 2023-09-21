@@ -2,6 +2,8 @@
 
 Catalogue de diagrammes UML et MERISE
 
+https://2023-cda-alt-devops-p4.github.io/catalog-PF/
+
 ## Description
 
 Catalogue référençant les différents diagrammes UML et MERISE décrivant leur utilité
