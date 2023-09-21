@@ -171,7 +171,7 @@
       },
       {
         "id": 5,
-        "title": "Modèle conceptuel de données - MCD",
+        "title": "Modèle Conceptuel de Données - MCD",
         "type": "Modèles de données",
         "shortDescription": "Structurer les données de manière à éviter les redondances.",
         "longDescription": "Egalement appelé modèle entité-association, permet de structurer les données de manière 'inteligente' afin d'éviter, par exemple, les redondances d'informations.\nLes informations sont regroupées en entités : regroupement d'information permettant de définir un objet ou un individu au sein du système d'information. L'entité dispose d'attributs/propriétés correspondant à la liste des informations la définissant ainsi que d'un identifiant (id).",
