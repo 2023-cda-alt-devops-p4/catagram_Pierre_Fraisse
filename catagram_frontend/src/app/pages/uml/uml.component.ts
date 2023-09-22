@@ -7,10 +7,11 @@ import diagramsData from '../../data/diagrams.json'
 })
 export class UmlComponent {
   umlDiagrams: any = diagramsData[0].diagrams;
-
   showModal: boolean = false;
+  activeDiagram: any;
 
-  openModal() {
+  openModal(diagram: any) {
+    this.activeDiagram = diagram;
     this.showModal = true;
   }
 

@@ -48,7 +48,7 @@ Pierre Fraisse
 
 ## Version History
 
-0.1
+0.1 : routing, uml/merise pages, homepage ready with descriptions, footer/header, every diagrams are displaying with there modales.
 
 ## License
 

@@ -7,4 +7,15 @@ import diagramsData from '../../data/diagrams.json'
 })
 export class MeriseComponent {
   meriseDiagrams: any = diagramsData[1].diagrams;
+  showModal: boolean = false;
+  activeDiagram: any;
+
+  openModal(diagram: any) {
+    this.activeDiagram = diagram;
+    this.showModal = true;
+  }
+
+  closeModal() {
+    this.showModal = false;
+  }
 }
