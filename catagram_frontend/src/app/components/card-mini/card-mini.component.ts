@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, EventEmitter, Input, Output} from '@angular/core';
 
 @Component({
   selector: 'app-card-mini',
@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./card-mini.component.css']
 })
 export class CardMiniComponent {
+  @Input() diagram: any;
+  @Output() openModalRequest = new EventEmitter<void>();
 
+  triggerOpenModal() {
+    this.openModalRequest.emit(this.diagram);
+  }
 }
