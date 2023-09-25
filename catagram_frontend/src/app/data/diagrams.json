@@ -26,7 +26,7 @@
         "type": "Structurel",
         "shortDescription": "Indique la manière dont les logiciels sont déployés",
         "longDescription": "Les diagrammes de déploiement indiquent la manière dont les logiciels sont déployés sur les composants matériels d’un système (PC, serveur...). Ces visuels sont particulièrement utiles pour les ingénieurs système et ils illustrent généralement les performances, l’évolutivité, la maintenabilité et la portabilité. Lorsque les composants matériels sont représentés les uns par rapport aux autres, il est plus facile de suivre l’ensemble de votre infrastructure informatique et de s’assurer que tous les éléments sont pris en compte lors d’un déploiement.",
-        "imageUrl": "/assets/images/uml/deploiment.webp",
+        "imageUrl": "/assets/images/uml/deploiement.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
       {
