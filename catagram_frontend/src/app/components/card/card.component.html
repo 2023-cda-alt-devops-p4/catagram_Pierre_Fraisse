@@ -7,7 +7,7 @@
         <div class="img-container" *ngIf="diagram?.imageUrl">
           <img [src]="diagram.imageUrl" [alt]="diagram.title">
         </div>
-        <p class="card-text">{{ diagram?.longDescription }}</p>
+        <p class="card-text" [innerHTML]="diagram.longDescription">{{ diagram?.longDescription }}</p>
         <a href="{{diagram.source}}" target="_blank">Source</a>
       </div>
     </div>
