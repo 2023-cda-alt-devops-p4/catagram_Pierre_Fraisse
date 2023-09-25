@@ -8,7 +8,7 @@
         "type": "Structurel",
         "shortDescription": "Diagramme le plus employé, exposant la structure statique d'un système.",
         "longDescription": "Le diagramme de classe est le diagramme le plus employé. Il permet de représenter fidèlement un système programmer en orienté objet.\nIl représente les classes d'un système de manière statique ainsi que les liens entre elles, leurs attributs et comportements.\n\nUne classe est représentée par un rectangle divisé en trois parties :\n\t- Le nom de la classe (première lettre en majuscule. Ex: User).\n\t- Ses attributs (avec son type de visibilité devant chaque et en minuscule, puis deux points et leur type. Ex: -id: int).\n\t- Ses méthodes (avec son type de visibilité , en camel case puis des parenthèses et enfin, optionnellement, son type. Ex: +setName(): string).\n\nLes différents types de visibilité sont représentés par :\n\t- un '-' pour 'private'.\n\t- un '+' pour 'public'.\n\t- Un '#' pour 'protected'.\n\t- Un '~' pour 'package/default'.\n\nLes relations entre les classes sont représentées par différents types de flèches pour l'héritage, la composition, l'aggrégation... toutes expliquées <a href='https://creately.com/guides/class-diagram-relationships/' target='_blank'>ici</a>.\n\nLa multiplicité (le nombre d'une classe liée à une autre) des relations entre les classes est représentée par des symboles disposées directement sur ou à coté des flèches :\n\t- Zero to one : 0..1.\n\t- Un nombre spécifique : n.\n\t- Zero to many : 0..*.\n\t- One to many : 1..*.\n\t- Une fourchette : m..n.",
-        "imageUrl": "/assets/images/uml/classe.webp",
+        "imageUrl": "assets/images/uml/classe.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
       {
@@ -17,7 +17,7 @@
         "type": "Structurel",
         "shortDescription": "Découpage d'un système complexe en composants de taille réduite.",
         "longDescription": "Un diagramme de composants est une version plus spécifique du diagramme de classes, et les mêmes règles de notation s’appliquent. Ce type de visuel représente des composants de taille réduite ainsi que leurs interactions.",
-        "imageUrl": "/assets/images/uml/composants.webp",
+        "imageUrl": "assets/images/uml/composants.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
       {
@@ -26,7 +26,7 @@
         "type": "Structurel",
         "shortDescription": "Indique la manière dont les logiciels sont déployés",
         "longDescription": "Les diagrammes de déploiement indiquent la manière dont les logiciels sont déployés sur les composants matériels d’un système (PC, serveur...). Ces visuels sont particulièrement utiles pour les ingénieurs système et ils illustrent généralement les performances, l’évolutivité, la maintenabilité et la portabilité. Lorsque les composants matériels sont représentés les uns par rapport aux autres, il est plus facile de suivre l’ensemble de votre infrastructure informatique et de s’assurer que tous les éléments sont pris en compte lors d’un déploiement.",
-        "imageUrl": "/assets/images/uml/deploiement.webp",
+        "imageUrl": "assets/images/uml/deploiement.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
       {
@@ -35,7 +35,7 @@
         "type": "Structurel",
         "shortDescription": "Plans de la structure interne d’un classifieur",
         "longDescription": "Ces diagrammes représentent la structure interne d’un classifieur, le comportement d'une collaboration ou ses interactions avec son environnement par le biais de ports. C'est une représentation plus proche de la physique des composants internes d'un système pour mieux en comprendre le fonctionnement.",
-        "imageUrl": "/assets/images/uml/composite.webp",
+        "imageUrl": "assets/images/uml/composite.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
       {
@@ -44,7 +44,7 @@
         "type": "Structurel",
         "shortDescription": "Représentation de structures de données à un moment spécifique",
         "longDescription": "Les diagrammes d’objets les instances de classes (objets) à un moment spécifique. C'est en quelque sorte un 'instantané' d'un système. Le diagramme d'objets peut être utilisé après la création du diagramme de classe afin de vérifier l'exhaustivité de ce dernier, élaborer des scénarios de test... Il est représenté similairement à une classe d'un diagramme de classe, ses relations également. L'objet est souvent représenté sous la forme 'nomInstance : NomClasse'.",
-        "imageUrl": "/assets/images/uml/objets.webp",
+        "imageUrl": "assets/images/uml/objets.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
       {
@@ -53,7 +53,7 @@
         "type": "Structurel",
         "shortDescription": "Illustration des dépendances entre les différents paquetages d'un système",
         "longDescription": "Les diagrammes de paquetages sont utilisés pour illustrer les dépendances entre les différents paquetages d’un système. Ces derniers, représentés sous la forme d’un dossier de fichiers, organisent en groupes les éléments de modèle, tels que les cas d’utilisation ou les classes. En résumé, c'est une manière de représenter l'arborescence des fichiers d'un système.",
-        "imageUrl": "/assets/images/uml/paquetages.webp",
+        "imageUrl": "assets/images/uml/paquetages.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
       {
@@ -62,7 +62,7 @@
         "type": "Structurel",
         "shortDescription": "Mécanisme de personnalisation des modèles.",
         "longDescription": "Récemment ajoutés à UML 2.0, les diagrammes de profil sont uniques et rarement utilisés dans les spécifications. Un diagramme de profil est mieux compris comme un mécanisme d'extensibilité pour personnaliser les modèles UML pour des domaines et des plates-formes spécifiques.\n\n",
-        "imageUrl": "/assets/images/uml/profil.webp",
+        "imageUrl": "assets/images/uml/profil.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
       {
@@ -71,7 +71,7 @@
         "type": "Comportemental",
         "shortDescription": "Illustration des interactions des données dans un temps donné",
         "longDescription": "Description de l'interaction des objets dans un laps de temps donné afin de déterminer la durée des étapes d'un processus et en identifier les améliorations.",
-        "imageUrl": "/assets/images/uml/temps.webp",
+        "imageUrl": "assets/images/uml/temps.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
       {
@@ -80,7 +80,7 @@
         "type": "Comportemental",
         "shortDescription": "Illustration du flux de contrôle entre des nœuds en interaction",
         "longDescription": "Ce diagramme montre comment différents éléments (appelés 'noeuds') interagissent et guident le déroulement d'une action ou d'une tâche:\n\t- Noeuds initiaux: point de départ de l'action (ouverture d'application par exemple).\n\t- Noeuds finaux de flux: pause ou fin temporaire (ajout au panier).\n\t- Noeuds finaux d'activité: fin de l'action ou de la tâche (envoi d'un mail de confirmation d'inscription).\n\t- Noeuds de décision: endroit où une décision doit être prise (Connection ou inscription d'un utilisateur).\n\t- Noeuds de fusion: convergence de chemins (lien vers la homepage disponible partout sur un site).\n\t- Noeuds de bifurcation: division d'un chemin en plusieurs (liens d'une barre de navigation).\n\t- Noeuds de jonctions: croisement et interaction de chemins (page récapitulative avant achat).",
-        "imageUrl": "/assets/images/uml/interactions.webp",
+        "imageUrl": "assets/images/uml/interactions.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
       {
@@ -89,7 +89,7 @@
         "type": "Comportemental",
         "shortDescription": "Illustration des liens entre les objets",
         "longDescription": "Les diagrammes de communication, autrefois appelés diagrammes de collaboration, sont similaires aux diagrammes de séquence mais insistent sur les messages transférés entre les composents. Ils montrent les interactions entre les objets dans un ordre séquentiel. Leur représentation est similaire à celle des diagrammes de classe.",
-        "imageUrl": "/assets/images/uml/communication.webp",
+        "imageUrl": "assets/images/uml/communication.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
       {
@@ -98,7 +98,7 @@
         "type": "Comportemental",
         "shortDescription": "Description des états et des transitions",
         "longDescription": "Les diagrammes états-transitions décrivent les états et les transitions d'un objet. Un état correspond aux différentes combinaisons d’informations qu’un objet peut contenir à un instant T, et ce type de diagramme permet de visualiser tous les états possibles et la manière dont l’objet passe de l’un à l’autre.",
-        "imageUrl": "/assets/images/uml/etats-transitions.webp",
+        "imageUrl": "assets/images/uml/etats-transitions.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
       {
@@ -107,7 +107,7 @@
         "type": "Comportemental",
         "shortDescription": "Représentation des interactions entre les utilisateurs et le système",
         "longDescription": "Les diagrammes de cas d’utilisation modélisent les interactions entre les utilisateurs, représentés sous forme de figurines appelées « acteurs », et le système. Ce type de diagramme est une vue d’ensemble des relations entre les acteurs et les systèmes, ce qui en fait un excellent outil pour présenter le système à un public non technique.",
-        "imageUrl": "/assets/images/uml/cas-utilisation.webp",
+        "imageUrl": "assets/images/uml/cas-utilisation.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
       {
@@ -116,7 +116,7 @@
         "type": "Comportemental",
         "shortDescription": "Ordre d'interaction des objets",
         "longDescription": "Un diagramme de séquence, parfois appelé diagramme d’événements ou scénario d’événements, montre l’ordre dans lequel les objets interagissent. Ils vous permettent ainsi de représenter visuellement des scénarios d’exécution simples.",
-        "imageUrl": "/assets/images/uml/sequence.webp",
+        "imageUrl": "assets/images/uml/sequence.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
       {
@@ -125,7 +125,7 @@
         "type": "Comportemental",
         "shortDescription": "Illustration des étapes réalisées dans un cas d’utilisation",
         "longDescription": "Les diagrammes d’activités représentent les étapes d'un cas d’utilisation. Les activités peuvent être séquentielles, ramifiées ou simultanées. Ce type de diagramme est utilisé pour montrer le comportement dynamique d’un système, mais il peut également être utile dans la modélisation des processus métier sous la forme de la représentation avancée d'un algorithme.\n\n",
-        "imageUrl": "/assets/images/uml/activites.webp",
+        "imageUrl": "assets/images/uml/activites.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       }
     ]
@@ -139,7 +139,7 @@
         "type": "Modèles de communication",
         "shortDescription": "Modéliser la communication entre les différents acteurs ",
         "longDescription": "Le MCC représente les acteurs et arcs de communication (direction et voie de communication) entre eux. Nous pouvons définir deux types d'acteurs : les acteurs externes (ex: client, prestataire...) et internes (ex: service des ventes, comptabilité, RH...) au référenciel (entreprise).",
-        "imageUrl": "/assets/images/merise/mcc.webp",
+        "imageUrl": "assets/images/merise/mcc.webp",
         "source": "http://www.colar.net/as/cours/analyse/mcc.html#:~:text=Exercice.-,1.,projet%20ou%20d'une%20application."
       },
       {
@@ -175,7 +175,7 @@
         "type": "Modèles de données",
         "shortDescription": "Structurer les données de manière à éviter les redondances.",
         "longDescription": "Egalement appelé modèle entité-association, permet de structurer les données de manière 'inteligente' afin d'éviter, par exemple, les redondances d'informations.\nLes informations sont regroupées en entités : regroupement d'information permettant de définir un objet ou un individu au sein du système d'information. L'entité dispose d'attributs/propriétés correspondant à la liste des informations la définissant ainsi que d'un identifiant (id).",
-        "imageUrl": "/assets/images/merise/mcd.webp",
+        "imageUrl": "assets/images/merise/mcd.webp",
         "source": ""
       },
       {
@@ -193,7 +193,7 @@
         "type": "Modèles de données",
         "shortDescription": "Décrit comment les données sont stockées de manière générale",
         "longDescription": "Va plus loin que le MCD dans le sens où l'on va établir la manière dont les données seront stockées, établi les clés primaires et étrangères, les relations entre les entités...",
-        "imageUrl": "/assets/images/merise/mld.webp",
+        "imageUrl": "assets/images/merise/mld.webp",
         "source": "https://web.maths.unsw.edu.au/~lafaye/CCM/merise/mld.htm"
       },
       {
@@ -202,7 +202,7 @@
         "type": "Modèles de données",
         "shortDescription": "Implémente le modèle dans le SGBD.",
         "longDescription": "Traduit en SQL les entités et leurs relation au sein du Système de Gestion de Base de Données.",
-        "imageUrl": "/assets/images/merise/mpd.webp",
+        "imageUrl": "assets/images/merise/mpd.webp",
         "source": ""
       },
       {
@@ -211,7 +211,7 @@
         "type": "Modèles de traitement",
         "shortDescription": "Modéliser les traitements d'une application.",
         "longDescription": "Représente chaque traitement en tant que processus (succession d'étapes visant à accomplir une tâche, par exemple le traitement d'une commande client) composé d'évenements (condition qui déclenche un processus), d'opérations (action faisant déclenchée par l'évenement et réalisée dans le but d'obtenir un résultat) et de résultats (produit final ou sortie de processus).",
-        "imageUrl": "/assets/images/merise/mct.webp",
+        "imageUrl": "assets/images/merise/mct.webp",
         "source": "http://www.colar.net/as/cours/analyse/mct.html"
       },
       {
@@ -220,7 +220,7 @@
         "type": "Modèles de traitement",
         "shortDescription": "Décrit le temps, les ressources et le lieu allouées à la gestion des données.",
         "longDescription": "Décrit les propriétés des traitements non mentionnées par le MCD (temps, ressources et lieu)",
-        "imageUrl": "/assets/images/merise/mot.webp",
+        "imageUrl": "assets/images/merise/mot.webp",
         "source": "https://web.maths.unsw.edu.au/~lafaye/CCM/merise/mot.htm"
       },
       {
@@ -229,7 +229,7 @@
         "type": "Modèles de traitement",
         "shortDescription": "Logique métier du MOT",
         "longDescription": "S'attache à comment l'information sera traitée, dans le logiciel, depuis la requête jusqu'à la délivrance de l'information.",
-        "imageUrl": "/assets/images/merise/mlt.webp",
+        "imageUrl": "assets/images/merise/mlt.webp",
         "source": "https://www.memoireonline.com/11/19/11209/m_Conception-et-realisation-d-une-application-de-gestion-de-l-octroi-titres-parcellaire-dans-une-inst29.html#:~:text=Le%20mod%C3%A8le%20logique%20de%20traitement%20comprend%20la%20partie%20visible%2C%20la,le%20mod%C3%A8le%20logique%20de%20donn%C3%A9es."
       },
       {
