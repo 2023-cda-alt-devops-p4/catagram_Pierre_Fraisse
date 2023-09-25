@@ -3,6 +3,7 @@ import { Component, Input, OnInit } from '@angular/core';
 interface GlobalDescription {
   id: number;
   title: string;
+  image: string;
   description: string;
   link: string;
 }
