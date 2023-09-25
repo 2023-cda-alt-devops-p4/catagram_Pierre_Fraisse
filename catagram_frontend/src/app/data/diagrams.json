@@ -52,7 +52,7 @@
         "title": "Diagramme de paquetages",
         "type": "Structurel",
         "shortDescription": "Illustration des dépendances entre les différents paquetages d'un système",
-        "longDescription": "Les diagrammes de paquetages sont utilisés pour illustrer les dépendances entre les différents paquetages d’un système. Ces derniers, représentés sous la forme d’un dossier de fichiers, organisent en groupes les éléments de modèle, tels que les cas d’utilisation ou les classes.",
+        "longDescription": "Les diagrammes de paquetages sont utilisés pour illustrer les dépendances entre les différents paquetages d’un système. Ces derniers, représentés sous la forme d’un dossier de fichiers, organisent en groupes les éléments de modèle, tels que les cas d’utilisation ou les classes. En résumé, c'est une manière de représenter l'arborescence des fichiers d'un système.",
         "imageUrl": "/assets/images/uml/paquetages.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
