@@ -25,7 +25,7 @@
         "title": "Diagramme de déploiement",
         "type": "Structurel",
         "shortDescription": "Indique la manière dont les logiciels sont déployés",
-        "longDescription": "Les diagrammes de déploiement indiquent la manière dont les logiciels sont déployés sur les composants matériels d’un système. Ces visuels sont particulièrement utiles pour les ingénieurs système et ils illustrent généralement les performances, l’évolutivité, la maintenabilité et la portabilité. Lorsque les composants matériels sont représentés les uns par rapport aux autres, il est plus facile de suivre l’ensemble de votre infrastructure informatique et de s’assurer que tous les éléments sont pris en compte lors d’un déploiement.",
+        "longDescription": "Les diagrammes de déploiement indiquent la manière dont les logiciels sont déployés sur les composants matériels d’un système (PC, serveur...). Ces visuels sont particulièrement utiles pour les ingénieurs système et ils illustrent généralement les performances, l’évolutivité, la maintenabilité et la portabilité. Lorsque les composants matériels sont représentés les uns par rapport aux autres, il est plus facile de suivre l’ensemble de votre infrastructure informatique et de s’assurer que tous les éléments sont pris en compte lors d’un déploiement.",
         "imageUrl": "/assets/images/uml/deploiment.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
@@ -43,7 +43,7 @@
         "title": "Diagramme d'objets",
         "type": "Structurel",
         "shortDescription": "Représentation de structures de données à un moment spécifique",
-        "longDescription": "Les diagrammes d’objets présentent des exemples de structures de données à un moment spécifique. Vous pouvez utiliser un diagramme de classes pour représenter une structure, puis des diagrammes d’objets comme scénarios de test pour vérifier que votre diagramme de classes est bien exhaustif. Vous pouvez également créer un diagramme d’objets pour recueillir des informations sur les éléments de modèle et leurs liens.",
+        "longDescription": "Les diagrammes d’objets les instances de classes (objets) à un moment spécifique. C'est en quelque sorte un 'instantané' d'un système. Le diagramme d'objets peut être utilisé après la création du diagramme de classe afin de vérifier l'exhaustivité de ce dernier, élaborer des scénarios de test... Il est représenté similairement à une classe d'un diagramme de classe, ses relations également. L'objet est souvent représenté sous la forme 'nomInstance : NomClasse'.",
         "imageUrl": "/assets/images/uml/objets.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
