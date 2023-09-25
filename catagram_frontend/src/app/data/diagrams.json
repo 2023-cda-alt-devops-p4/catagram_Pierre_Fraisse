@@ -70,7 +70,7 @@
         "title": "Diagramme de temps",
         "type": "Comportemental",
         "shortDescription": "Illustration des interactions des données dans un temps donné",
-        "longDescription": "Souvent décrit comme un diagramme de séquence inversé, un diagramme de temps montre comment les objets interagissent entre eux dans un laps de temps donné. Utilisez ces diagrammes pour déterminer la durée de chaque étape d’un processus et identifier les améliorations à apporter.",
+        "longDescription": "Description de l'interaction des objets dans un laps de temps donné afin de déterminer la durée des étapes d'un processus et en identifier les améliorations.",
         "imageUrl": "/assets/images/uml/temps.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
