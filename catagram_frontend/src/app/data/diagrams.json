@@ -34,7 +34,7 @@
         "title": "Diagramme de structure composite",
         "type": "Structurel",
         "shortDescription": "Plans de la structure interne d’un classifieur",
-        "longDescription": "Ces diagrammes sont en vérité des plans de la structure interne d’un classifieur. Ils peuvent également être utilisés pour illustrer le comportement d’une collaboration ou les interactions du classifieur avec son environnement par le biais des ports. Ils permettent de représenter facilement les composants internes de tout type d’équipement pour mieux en comprendre le fonctionnement.",
+        "longDescription": "Ces diagrammes représentent la structure interne d’un classifieur, le comportement d'une collaboration ou ses interactions avec son environnement par le biais de ports. C'est une représentation plus proche de la physique des composants internes d'un système pour mieux en comprendre le fonctionnement.",
         "imageUrl": "/assets/images/uml/composite.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
