@@ -88,7 +88,7 @@
         "title": "Diagramme de communication",
         "type": "Comportemental",
         "shortDescription": "Illustration des liens entre les objets",
-        "longDescription": "Les diagrammes de communication, autrefois appelés diagrammes de collaboration, illustrent les liens entre les objets. Ils modélisent la manière dont ces derniers s’associent et se connectent par le biais de messages dans le cadre de la conception architecturale d’un système. Ils peuvent également représenter des scénarios alternatifs dans des cas d’utilisation ou des opérations qui nécessitent la collaboration de différents objets et interactions.",
+        "longDescription": "Les diagrammes de communication, autrefois appelés diagrammes de collaboration, sont similaires aux diagrammes de séquence mais insistent sur les messages transférés entre les composents. Ils montrent les interactions entre les objets dans un ordre séquentiel. Leur représentation est similaire à celle des diagrammes de classe.",
         "imageUrl": "/assets/images/uml/communication.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
