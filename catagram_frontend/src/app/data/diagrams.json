@@ -16,7 +16,7 @@
         "title": "Diagramme de composants",
         "type": "Structurel",
         "shortDescription": "Découpage d'un système complexe en composants de taille réduite.",
-        "longDescription": "Un diagramme de composants est en réalité une version plus spécifique du diagramme de classes, et les mêmes règles de notation s’appliquent aux deux. Ce type de visuel découpe un système complexe en composants de taille réduite et représente les interactions entre ces derniers.",
+        "longDescription": "Un diagramme de composants est une version plus spécifique du diagramme de classes, et les mêmes règles de notation s’appliquent. Ce type de visuel représente des composants de taille réduite ainsi que leurs interactions.",
         "imageUrl": "/assets/images/uml/composants.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
