@@ -124,7 +124,7 @@
         "title": "Diagramme d'activités",
         "type": "Comportemental",
         "shortDescription": "Illustration des étapes réalisées dans un cas d’utilisation",
-        "longDescription": "Les diagrammes d’activités représentent les étapes réalisées dans un cas d’utilisation. Les activités peuvent être séquentielles, ramifiées ou simultanées. Ce type de diagramme UML est utilisé pour montrer le comportement dynamique d’un système, mais il peut également être utile dans la modélisation des processus métier.\n\n",
+        "longDescription": "Les diagrammes d’activités représentent les étapes d'un cas d’utilisation. Les activités peuvent être séquentielles, ramifiées ou simultanées. Ce type de diagramme est utilisé pour montrer le comportement dynamique d’un système, mais il peut également être utile dans la modélisation des processus métier sous la forme de la représentation avancée d'un algorithme.\n\n",
         "imageUrl": "/assets/images/uml/activites.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       }
