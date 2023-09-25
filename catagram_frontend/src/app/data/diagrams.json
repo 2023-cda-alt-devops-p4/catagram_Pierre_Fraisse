@@ -79,7 +79,7 @@
         "title": "Diagramme d'aperçu des interactions",
         "type": "Comportemental",
         "shortDescription": "Illustration du flux de contrôle entre des nœuds en interaction",
-        "longDescription": "Ce diagramme donne un aperçu du flux de contrôle entre des nœuds en interaction. Ceux-ci incluent les nœuds initiaux, les nœuds finaux de flux, les nœuds finaux d’activité, les nœuds de décision, les nœuds de fusion, les nœuds de bifurcation et les nœuds de jonction.",
+        "longDescription": "Ce diagramme montre comment différents éléments (appelés 'noeuds') interagissent et guident le déroulement d'une action ou d'une tâche:\n\t- Noeuds initiaux: point de départ de l'action (ouverture d'application par exemple).\n\t- Noeuds finaux de flux: pause ou fin temporaire (ajout au panier).\n\t- Noeuds finaux d'activité: fin de l'action ou de la tâche (envoi d'un mail de confirmation d'inscription).\n\t- Noeuds de décision: endroit où une décision doit être prise (Connection ou inscription d'un utilisateur).\n\t- Noeuds de fusion: convergence de chemins (lien vers la homepage disponible partout sur un site).\n\t- Noeuds de bifurcation: division d'un chemin en plusieurs (liens d'une barre de navigation).\n\t- Noeuds de jonctions: croisement et interaction de chemins (page récapitulative avant achat).",
         "imageUrl": "/assets/images/uml/interactions.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
