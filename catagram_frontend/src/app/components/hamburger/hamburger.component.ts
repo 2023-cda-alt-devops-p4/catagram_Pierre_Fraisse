@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./hamburger.component.css']
 })
 export class HamburgerComponent {
+  isOpen = false;
+
+  toggleMenu() {
+    this.isOpen = !this.isOpen;
+  }
 
 }

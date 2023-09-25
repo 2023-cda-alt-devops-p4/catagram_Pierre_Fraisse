@@ -9,7 +9,7 @@ export class HeaderComponent implements OnInit {
   isMobile: boolean;
 
   constructor() {
-    this.isMobile = window.innerWidth < 768; // Change 768 to whatever mobile breakpoint you're using
+    this.isMobile = window.innerWidth < 768;
   }
 
   ngOnInit(): void {
