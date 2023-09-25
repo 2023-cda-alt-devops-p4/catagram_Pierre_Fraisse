@@ -48,7 +48,8 @@ Pierre Fraisse
 
 ## Version History
 
-0.1 : routing, uml/merise pages, homepage ready with descriptions, footer/header, every diagrams are displaying with there modales.
+0.1 : routing, uml/merise pages, homepage ready with descriptions, footer/header, every diagram are displaying with there modales.
+0.2 : all diagrams description and images, responsive nav and header, animated hamburger menu
 
 ## License
 

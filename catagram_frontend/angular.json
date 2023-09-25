@@ -23,7 +23,8 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/assets/images/**/*.webp"
+              "src/assets/images/**/*.webp",
+              "src/assets/images/**/*.svg"
             ],
             "styles": [
               "src/styles.css"

@@ -11,7 +11,7 @@
       <a routerLink="merise" routerLinkActive="active-page">Merise</a>
     </li>
   </ul>
-  <div class="hamburger" *ngIf="isMobile">
+  <div class="hamburger" *ngIf="isMobile" (click)="toggleNavigation()">
     <app-hamburger></app-hamburger>
   </div>
 </header>
