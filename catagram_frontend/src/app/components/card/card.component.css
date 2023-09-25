@@ -1,3 +1,7 @@
+p {
+  white-space: pre;
+}
+
 .modal-overlay {
   position: fixed;
   top: 0;
