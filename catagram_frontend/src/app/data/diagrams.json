@@ -97,7 +97,7 @@
         "title": "Modèle de diagramme états-transitions",
         "type": "Comportemental",
         "shortDescription": "Description des états et des transitions",
-        "longDescription": "Les diagrammes états-transitions, vous l’aurez deviné, décrivent les états et les transitions. Un état correspond aux différentes combinaisons d’informations qu’un objet peut contenir, et ce type de diagramme UML permet de visualiser tous les états possibles et la manière dont l’objet passe d’un état à l’autre.",
+        "longDescription": "Les diagrammes états-transitions décrivent les états et les transitions d'un objet. Un état correspond aux différentes combinaisons d’informations qu’un objet peut contenir à un instant T, et ce type de diagramme permet de visualiser tous les états possibles et la manière dont l’objet passe de l’un à l’autre.",
         "imageUrl": "/assets/images/uml/etats-transitions.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
