@@ -106,7 +106,7 @@
         "title": "Diagramme de cas d'utilisation",
         "type": "Comportemental",
         "shortDescription": "Représentation des interactions entre les utilisateurs et le système",
-        "longDescription": "Les diagrammes de cas d’utilisation modélisent la manière dont les utilisateurs, représentés sous forme de figurines appelées « acteurs », interagissent avec le système. Ce type de diagramme UML est une vue d’ensemble des relations entre les acteurs et les systèmes, ce qui en fait un excellent outil pour présenter votre système à un public non technique.",
+        "longDescription": "Les diagrammes de cas d’utilisation modélisent les interactions entre les utilisateurs, représentés sous forme de figurines appelées « acteurs », et le système. Ce type de diagramme est une vue d’ensemble des relations entre les acteurs et les systèmes, ce qui en fait un excellent outil pour présenter le système à un public non technique.",
         "imageUrl": "/assets/images/uml/cas-utilisation.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
