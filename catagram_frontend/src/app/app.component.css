@@ -3,6 +3,10 @@ html {
   color: var(--color-text);
 }
 
+.container, .body {
+  width: 100%;
+}
+
 .navigation-wrapper {
   overflow: hidden;
   max-height: 0;

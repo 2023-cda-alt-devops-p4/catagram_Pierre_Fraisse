@@ -1,11 +1,12 @@
 .card {
-  width : 100%;
+  width: 100%;
   padding: 1rem;
   border-radius: var(--radius-medium);
   box-shadow: var(--shadow-small);
   display: flex;
   gap: 1rem;
 }
+
 .img-container {
   flex: 1;
   display: flex;
@@ -26,4 +27,11 @@ img {
 
 h4 {
   font-family: var(--font-secondary);
+}
+
+@media(min-width: 481px) {
+  .card {
+    width: 480px;
+    height: 100%;
+  }
 }
