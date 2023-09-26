@@ -1,8 +1,7 @@
-.container {
-  width: 100%;
-  overflow: hidden;
+html {
+  font-family: var(--font-primary);
+  color: var(--color-text);
 }
-
 @media (max-width: 767px) {
   .navigation-wrapper {
     overflow: hidden;
@@ -16,6 +15,18 @@
 
   .navigation-wrapper.isVisible app-navigation {
     opacity: 1;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .body {
+    display: flex;
+    width: 100%;
+
+  }
+  .navigation-wrapper {
+    min-width: 250px;
   }
 
 }

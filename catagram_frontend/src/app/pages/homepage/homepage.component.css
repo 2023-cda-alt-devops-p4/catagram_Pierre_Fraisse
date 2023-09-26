@@ -4,8 +4,8 @@
 .cards-container {
   width: 100%;
   display: flex;
-  margin: 1rem;
-  gap: 1rem
+  gap: 1rem;
+  padding: 1rem;
 }
 
 app-home-card {

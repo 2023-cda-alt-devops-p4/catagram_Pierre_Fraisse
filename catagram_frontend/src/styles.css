@@ -17,6 +17,12 @@
 }
 
 /*Global styling*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   font-family: var(--font-primary);
   font-size: var(--font-size-base);
