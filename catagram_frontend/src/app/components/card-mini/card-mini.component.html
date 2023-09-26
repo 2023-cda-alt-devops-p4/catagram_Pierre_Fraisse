@@ -1,5 +1,7 @@
 <div class="card">
-  <img *ngIf="diagram?.imageUrl" [src]="diagram.imageUrl" [alt]="diagram.title">
+  <div class="img-container">
+    <img *ngIf="diagram?.imageUrl" [src]="diagram.imageUrl" [alt]="diagram.title">
+  </div>
   <div class="text-container">
     <h4 class="card-title">{{ diagram?.title }}</h4>
     <p class="card-text">{{ diagram?.shortDescription }}</p>

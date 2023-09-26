@@ -1,0 +1,29 @@
+.card {
+  width : 100%;
+  padding: 1rem;
+  border-radius: var(--radius-medium);
+  box-shadow: var(--shadow-small);
+  display: flex;
+  gap: 1rem;
+}
+.img-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  height: var(--small-images);
+  border-radius: var(--radius-small);
+}
+
+.text-container {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+h4 {
+  font-family: var(--font-secondary);
+}
