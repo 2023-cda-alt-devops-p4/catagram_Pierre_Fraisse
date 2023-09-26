@@ -11,7 +11,7 @@ h2 {
 }
 
 img {
-  height: 10rem;
+  height: var(--medium-images);
   border-radius: var(--radius-small);
   margin-bottom: 2rem;
 }

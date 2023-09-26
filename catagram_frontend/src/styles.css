@@ -16,9 +16,10 @@
   /*radius variables*/
   --radius-small: 5px;
   --radius-medium: 10px;
-  /*breakpoints*/
-  --tablet: 481px;
-  --desktop: 769px;
+  /* element sizes */
+  --small-images: 5rem;
+  --medium-images: 10rem;
+  --large-images: 20rem;
 }
 
 /*Global styling*/
