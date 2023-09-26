@@ -1,6 +1,6 @@
 <div *ngIf="showModal" class="modal-overlay"  (click)="onClose()">
   <div class="modal-content" (click)="$event.stopPropagation()">
-    <img src="assets/icons/icons8-close-50.png" class="modal-close-button" (click)="onClose()">
+    <img src="assets/icons/icons8-close-50.png" class="modal-close-button" (click)="onClose()" alt="close button">
     <div class="card">
       <h3 class="card-title">{{ diagram?.title }}</h3>
       <div class="img-container" *ngIf="diagram?.imageUrl">
