@@ -1,10 +1,17 @@
 .card {
+  cursor: pointer;
   width: 100%;
   padding: 1rem;
   border-radius: var(--radius-medium);
   box-shadow: var(--shadow-small);
   display: flex;
   gap: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: var(--shadow-large);
 }
 
 .img-container {
@@ -22,6 +29,7 @@ img {
   flex: 2;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: .5rem;
 }
 

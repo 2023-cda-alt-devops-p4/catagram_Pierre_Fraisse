@@ -13,6 +13,7 @@
   --color-text:#131313;
   /*shadow variables*/
   --shadow-small: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  --shadow-large: rgba(149, 157, 165, 0.25) 0px 10px 28px;
   /*radius variables*/
   --radius-small: 5px;
   --radius-medium: 10px;
