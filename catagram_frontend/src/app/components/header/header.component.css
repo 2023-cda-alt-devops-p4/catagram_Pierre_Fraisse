@@ -23,6 +23,10 @@ header img {
   margin: 0 15px;
 }
 
+.diagram-page {
+  text-transform: uppercase;
+}
+
 .nav-item a {
   color: var(--color-text);
   text-decoration: none;

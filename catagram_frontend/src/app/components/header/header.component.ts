@@ -1,4 +1,6 @@
 import {Component, EventEmitter, OnInit, Output} from '@angular/core';
+import {DiagramsService} from "../../services/diagrams.service";
+import {DataModel} from "../../models/data-model";
 
 @Component({
   selector: 'app-header',
@@ -8,11 +10,16 @@ import {Component, EventEmitter, OnInit, Output} from '@angular/core';
 export class HeaderComponent implements OnInit {
   isMobile: boolean;
   @Output() menuStatus = new EventEmitter<boolean>();
-  constructor() {
+  dataModels: DataModel[] = [];
+  constructor(private diagramsService: DiagramsService) {
     this.isMobile = window.innerWidth < 768;
   }
 
   ngOnInit(): void {
+    this.diagramsService.fetchDataModel().subscribe(dataModel => {
+      this.dataModels = dataModel;
+    });
+
     window.addEventListener('resize', () => {
       this.isMobile = window.innerWidth < 768;
     });
