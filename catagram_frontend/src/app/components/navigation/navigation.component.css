@@ -1,9 +1,12 @@
 nav {
   padding: 1rem;
-}
-
-div, nav {
   display: flex;
   flex-direction: column;
-  gap: .5rem;
+  gap: 1rem;
+}
+
+a {
+  font-size: var(--font-size-large);
+  color: var(--color-text);
+  font-weight: 700;
 }

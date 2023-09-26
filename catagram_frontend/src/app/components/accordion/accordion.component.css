@@ -1,11 +1,28 @@
+.accordion-container {
+  font-family: var(--font-secondary);
+}
+
+.accordion-header {
+  font-size: var(--font-size-large);
+  text-transform: uppercase;
+}
+
 .accordion-header, .type-header {
     cursor: pointer;
+}
+
+.type-header {
+  margin-top: 1rem;
 }
 
 .accordion-content, .type-container {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease;
+}
+
+.type-container {
+  margin-left: 1rem;
 }
 
 .diagrams-list {
@@ -19,12 +36,30 @@
 }
 
 .accordion-content:not(.collapsed) {
-    max-height: 500px;
+    max-height: 1000px;
     transition: max-height 0.5s ease-in-out;
 }
 .type-container:not(.collapsed) {
-  max-height: 500px;
+  max-height: 1000px;
   transition: max-height 0.5s ease-in-out;
+}
+
+.type-header {
+
+  margin-bottom: .6rem;
+  font-size: var(--font-size-med-large);
+}
+
+.accordion-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-left: 2rem;
+}
+.diagrams-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .diagram-title {
