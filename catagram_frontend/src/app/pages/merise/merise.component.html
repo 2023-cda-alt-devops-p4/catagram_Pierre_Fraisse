@@ -1,5 +1,5 @@
 <div class="container">
-  <h4>Modèles MERISE</h4>
+  <h2>Modèles MERISE</h2>
   <div class="cards-container" *ngFor="let diagram of meriseDiagrams">
     <app-card-mini [diagram]="diagram" (openModalRequest)="openModal($event)"></app-card-mini>
     <app-card *ngIf="showModal" [diagram]="activeDiagram" [showModal]="showModal" (close)="closeModal()"></app-card>
