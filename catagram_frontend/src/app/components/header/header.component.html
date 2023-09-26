@@ -4,11 +4,8 @@
     <li class="nav-item">
       <a routerLink="" routerLinkActive="active-page" [routerLinkActiveOptions]="{ exact: true }">Home</a>
     </li>
-    <li class="nav-item">
-      <a routerLink="uml" routerLinkActive="active-page">UML</a>
-    </li>
-    <li class="nav-item">
-      <a routerLink="merise" routerLinkActive="active-page">Merise</a>
+    <li class="nav-item diagram-page" *ngFor="let dataModel of dataModels">
+      <a routerLink={{dataModel.dataModel}} routerLinkActive="active-page">{{dataModel.dataModel}}</a>
     </li>
   </ul>
   <div class="hamburger" *ngIf="isMobile">
