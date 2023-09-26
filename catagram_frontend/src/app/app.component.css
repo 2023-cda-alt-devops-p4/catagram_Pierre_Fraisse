@@ -17,7 +17,7 @@ html {
   opacity: 1;
 }
 
-@media (min-width: 768px) {
+@media (min-width: var(--desktop)) {
   .body {
     display: flex;
     width: 100%;

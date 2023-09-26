@@ -30,3 +30,9 @@ h1 {
 app-home-card {
   flex: 1;
 }
+
+@media (min-width: 769px) {
+  .cards-container {
+    flex-direction: row;
+  }
+}
