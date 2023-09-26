@@ -1,5 +1,11 @@
-<div class="cards-container" *ngFor="let diagram of umlDiagrams">
-  <app-card-mini [diagram]="diagram" (openModalRequest)="openModal($event)"></app-card-mini>
-  <app-card *ngIf="showModal" [diagram]="activeDiagram" [showModal]="showModal" (close)="closeModal()"></app-card>
+<div class="container">
+  <h2>Diagrammes UML</h2>
+  <div class="cards-container">
+    <div class="card-container" *ngFor="let diagram of umlDiagrams">
+      <app-card-mini [diagram]="diagram" (openModalRequest)="openModal($event)"></app-card-mini>
+      <app-card *ngIf="showModal" [diagram]="activeDiagram" [showModal]="showModal" (close)="closeModal()"></app-card>
+    </div>
+  </div>
 </div>
+
 

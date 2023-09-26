@@ -1,7 +1,5 @@
-/* Main footer styling */
 footer {
   width: 100%;
-  background-color: white;
   color: black;
   padding: 1em;
   display: flex;
@@ -11,13 +9,11 @@ footer {
   bottom: 0;
 }
 
-/* Logo styling */
 footer img {
   max-width: 100px;
   margin-bottom: 1em;
 }
 
-/* Paragraph styling */
 footer p {
   margin: 0;
   padding: 0;

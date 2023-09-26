@@ -1,6 +1,4 @@
 <nav>
   <a routerLink="" routerLinkActive="active">Home</a>
-  <div *ngFor="let dataModel of dataModels">
-    <app-accordion [diagrams]="dataModel.diagrams" [dataModelTitle]="dataModel.dataModel"></app-accordion>
-  </div>
+  <app-accordion *ngFor="let dataModel of dataModels" [diagrams]="dataModel.diagrams" [dataModelTitle]="dataModel.dataModel"></app-accordion>
 </nav>
