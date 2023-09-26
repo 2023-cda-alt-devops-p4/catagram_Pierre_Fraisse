@@ -1,4 +1,4 @@
-<app-header></app-header>
-<app-navigation *ngIf="showNavigation"></app-navigation>
+<app-header (menuStatus)="toggleNavigationStatus($event)"></app-header>
+<app-navigation *ngIf="showNavigation || !isMobile"></app-navigation>
 <router-outlet></router-outlet>
 <app-footer></app-footer>

@@ -1,5 +1,4 @@
-import {Component, OnInit} from '@angular/core';
-import { NavigationService } from "../../services/navigation.service";
+import {Component, EventEmitter, OnInit, Output} from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -9,18 +8,18 @@ import { NavigationService } from "../../services/navigation.service";
 export class HeaderComponent implements OnInit {
   isMobile: boolean;
 
-  constructor(private navigationService: NavigationService) {
+  @Output() menuStatus = new EventEmitter<boolean>();
+  constructor() {
     this.isMobile = window.innerWidth < 768;
   }
 
   ngOnInit(): void {
     window.addEventListener('resize', () => {
-      this.isMobile = window.innerWidth < 768; // Again, adjust 768 to your mobile breakpoint
+      this.isMobile = window.innerWidth < 768;
     });
   }
-
-  toggleNavigation() {
-    this.navigationService.toggleNavigation();
+  handleMenuToggle(event: boolean) {
+    this.menuStatus.emit(event);
   }
 }
 
