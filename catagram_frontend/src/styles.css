@@ -3,9 +3,10 @@
   /*font variables*/
   --font-primary: "Montserrat", "sans-serif";
   --font-secondary: "Inter", "sans-serif";
+  --font-size-mobile: 12px;
   --font-size-base: 16px;
-  --font-size-large: 20px;
-  --font-size-xlarge: 40px;
+  --font-size-large: 1.5rem;
+  --font-size-xlarge: 3rem;
   /*colors variables*/
   --color-primary: #FFFAF6;
   --color-text:#131313;
@@ -14,6 +15,9 @@
   /*radius variables*/
   --radius-small: 5px;
   --radius-medium: 10px;
+  /*breakpoints*/
+  --tablet: 481px;
+  --desktop: 769px;
 }
 
 /*Global styling*/
@@ -25,7 +29,13 @@
 
 html {
   font-family: var(--font-primary);
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-mobile);
   color: var(--color-text);
   background-color: var(--color-primary);
+}
+
+@media (min-width: 481px) {
+  html {
+    font-size: var(--font-size-base);
+  }
 }
