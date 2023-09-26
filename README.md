@@ -51,6 +51,7 @@ Pierre Fraisse
 0.1 : routing, uml/merise pages, homepage ready with descriptions, footer/header, every diagram are displaying with there modales.
 0.2 : all diagrams description and images, responsive nav and header, animated hamburger menu
 0.3 : all site design is user-ready and responsive
+0.4 : creation of the interfaces and service
 
 ## License
 
