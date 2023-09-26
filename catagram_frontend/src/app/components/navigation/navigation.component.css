@@ -1,0 +1,9 @@
+nav {
+  padding: 1rem;
+}
+
+div, nav {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
