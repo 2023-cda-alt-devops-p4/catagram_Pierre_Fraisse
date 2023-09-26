@@ -1,4 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
+import {Diagram} from "../../models/diagram";
 
 @Component({
   selector: 'app-accordion',
@@ -6,16 +7,16 @@ import {Component, Input, OnInit} from '@angular/core';
   styleUrls: ['./accordion.component.css']
 })
 export class AccordionComponent implements OnInit {
-  @Input() diagrams: any[] = [];
+  @Input() diagrams: Diagram[] = [];
   @Input() dataModelTitle: string = '';
 
-  groupedDiagrams: { [key: string]: any[] } = {};
+  groupedDiagrams: { [key: string]: Diagram[] } = {};
 
-  public Object = Object
+  public Object = Object;
 
   // Group the different diagrams into arrays by types
   ngOnInit() {
-    this.groupedDiagrams = this.diagrams.reduce((acc, diagram) => {
+    this.groupedDiagrams = this.diagrams.reduce((acc: { [type: string]: Diagram[] }, diagram: Diagram) => {
       if (!acc[diagram.type]) {
         acc[diagram.type] = [];
       }
