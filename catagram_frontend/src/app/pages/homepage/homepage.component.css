@@ -1,6 +1,23 @@
 .container {
   width: 100%;
 }
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: var(--font-size-xlarge);
+  font-family: var(--font-secondary);
+  width: 100%;
+  text-align: center;
+}
+
 .cards-container {
   width: 100%;
   display: flex;
