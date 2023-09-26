@@ -1,6 +1,6 @@
 <div class="card">
     <img src="{{ description.image}}" alt="model type logo">
-    <h5 class="card-title">{{ description.title }}</h5>
+    <h2 class="card-title">{{ description.title }}</h2>
     <p class="card-text"  [innerHTML]="description.description">{{ description.description }}</p>
     <a routerLink="{{description.link}}">Lien vers les diagrammes</a>
 </div>

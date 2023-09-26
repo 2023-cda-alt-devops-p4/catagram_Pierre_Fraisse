@@ -2,21 +2,19 @@ html {
   font-family: var(--font-primary);
   color: var(--color-text);
 }
-@media (max-width: 767px) {
-  .navigation-wrapper {
-    overflow: hidden;
-    max-height: 0;
-    transition: max-height 0.5s ease-in-out;
-  }
 
-  .navigation-wrapper.isVisible {
-    max-height: 1200px;
-  }
+.navigation-wrapper {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease-in-out;
+}
 
-  .navigation-wrapper.isVisible app-navigation {
-    opacity: 1;
-  }
+.navigation-wrapper.isVisible {
+  max-height: 1200px;
+}
 
+.navigation-wrapper.isVisible app-navigation {
+  opacity: 1;
 }
 
 @media (min-width: 768px) {

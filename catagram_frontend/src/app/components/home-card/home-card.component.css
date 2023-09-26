@@ -4,9 +4,15 @@
   box-shadow: var(--shadow-small);
 }
 
+h2 {
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-large);
+}
+
 img {
   height: 10rem;
   border-radius: var(--radius-small);
+  margin-bottom: 2rem;
 }
 
 p {
