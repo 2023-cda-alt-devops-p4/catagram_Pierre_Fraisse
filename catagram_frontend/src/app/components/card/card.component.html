@@ -1,15 +1,13 @@
 <div *ngIf="showModal" class="modal-overlay"  (click)="onClose()">
   <div class="modal-content" (click)="$event.stopPropagation()">
-    <button class="modal-close-button" (click)="onClose()">X</button>
+    <img src="assets/icons/icons8-close-50.png" class="modal-close-button" (click)="onClose()">
     <div class="card">
-      <div class="card-body">
-        <h3 class="card-title">{{ diagram?.title }}</h3>
-        <div class="img-container" *ngIf="diagram?.imageUrl">
-          <img [src]="diagram.imageUrl" [alt]="diagram.title">
-        </div>
-        <p class="card-text" [innerHTML]="diagram.longDescription">{{ diagram?.longDescription }}</p>
-        <a href="{{diagram.source}}" target="_blank">Source</a>
+      <h3 class="card-title">{{ diagram?.title }}</h3>
+      <div class="img-container" *ngIf="diagram?.imageUrl">
+        <img [src]="diagram.imageUrl" [alt]="diagram.title">
       </div>
+      <p class="card-text" [innerHTML]="diagram.longDescription">{{ diagram?.longDescription }}</p>
+      <a href="{{diagram.source}}" target="_blank">Source</a>
     </div>
   </div>
 </div>
