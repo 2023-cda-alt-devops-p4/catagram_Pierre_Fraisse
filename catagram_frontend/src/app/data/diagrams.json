@@ -7,7 +7,7 @@
         "title": "Diagramme de classe",
         "type": "Structurel",
         "shortDescription": "Diagramme le plus employé, exposant la structure statique d'un système.",
-        "longDescription": "Le diagramme de classe est le diagramme le plus employé. Il permet de représenter fidèlement un système programmer en orienté objet.\nIl représente les classes d'un système de manière statique ainsi que les liens entre elles, leurs attributs et comportements.\n\nUne classe est représentée par un rectangle divisé en trois parties :\n\t- Le nom de la classe (première lettre en majuscule. Ex: User).\n\t- Ses attributs (avec son type de visibilité devant chaque et en minuscule, puis deux points et leur type. Ex: -id: int).\n\t- Ses méthodes (avec son type de visibilité , en camel case puis des parenthèses et enfin, optionnellement, son type. Ex: +setName(): string).\n\nLes différents types de visibilité sont représentés par :\n\t- un '-' pour 'private'.\n\t- un '+' pour 'public'.\n\t- Un '#' pour 'protected'.\n\t- Un '~' pour 'package/default'.\n\nLes relations entre les classes sont représentées par différents types de flèches pour l'héritage, la composition, l'aggrégation... toutes expliquées <a href='https://creately.com/guides/class-diagram-relationships/' target='_blank'>ici</a>.\n\nLa multiplicité (le nombre d'une classe liée à une autre) des relations entre les classes est représentée par des symboles disposées directement sur ou à coté des flèches :\n\t- Zero to one : 0..1.\n\t- Un nombre spécifique : n.\n\t- Zero to many : 0..*.\n\t- One to many : 1..*.\n\t- Une fourchette : m..n.",
+        "longDescription": "Le diagramme de classe est le diagramme le plus employé. Il permet de représenter fidèlement un système programmer en orienté objet.<br>Il représente les classes d'un système de manière statique ainsi que les liens entre elles, leurs attributs et comportements.<br><br>Une classe est représentée par un rectangle divisé en trois parties :<br>&nbsp&nbsp&nbsp&nbsp- Le nom de la classe (première lettre en majuscule. Ex: User).<br>&nbsp&nbsp&nbsp&nbsp- Ses attributs (avec son type de visibilité devant chaque et en minuscule, puis deux points et leur type. Ex: -id: int).<br>&nbsp&nbsp&nbsp&nbsp- Ses méthodes (avec son type de visibilité , en camel case puis des parenthèses et enfin, optionnellement, son type. Ex: +setName(): string).<br><br>Les différents types de visibilité sont représentés par :<br>&nbsp&nbsp&nbsp&nbsp- un '-' pour 'private'.<br>&nbsp&nbsp&nbsp&nbsp- un '+' pour 'public'.<br>&nbsp&nbsp&nbsp&nbsp- Un '#' pour 'protected'.<br>&nbsp&nbsp&nbsp&nbsp- Un '~' pour 'package/default'.<br><br>Les relations entre les classes sont représentées par différents types de flèches pour l'héritage, la composition, l'aggrégation... toutes expliquées <a href='https://creately.com/guides/class-diagram-relationships/' target='_blank'>ici</a>.<br><br>La multiplicité (le nombre d'une classe liée à une autre) des relations entre les classes est représentée par des symboles disposées directement sur ou à coté des flèches :<br>&nbsp&nbsp&nbsp&nbsp- Zero to one : 0..1.<br>&nbsp&nbsp&nbsp&nbsp- Un nombre spécifique : n.<br>&nbsp&nbsp&nbsp&nbsp- Zero to many : 0..*.<br>&nbsp&nbsp&nbsp&nbsp- One to many : 1..*.<br>&nbsp&nbsp&nbsp&nbsp- Une fourchette : m..n.",
         "imageUrl": "assets/images/uml/classe.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
@@ -61,7 +61,7 @@
         "title": "Diagramme de profil",
         "type": "Structurel",
         "shortDescription": "Mécanisme de personnalisation des modèles.",
-        "longDescription": "Récemment ajoutés à UML 2.0, les diagrammes de profil sont uniques et rarement utilisés dans les spécifications. Un diagramme de profil est mieux compris comme un mécanisme d'extensibilité pour personnaliser les modèles UML pour des domaines et des plates-formes spécifiques.\n\n",
+        "longDescription": "Récemment ajoutés à UML 2.0, les diagrammes de profil sont uniques et rarement utilisés dans les spécifications. Un diagramme de profil est mieux compris comme un mécanisme d'extensibilité pour personnaliser les modèles UML pour des domaines et des plates-formes spécifiques.<br><br>",
         "imageUrl": "assets/images/uml/profil.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
@@ -79,7 +79,7 @@
         "title": "Diagramme d'aperçu des interactions",
         "type": "Comportemental",
         "shortDescription": "Illustration du flux de contrôle entre des nœuds en interaction",
-        "longDescription": "Ce diagramme montre comment différents éléments (appelés 'noeuds') interagissent et guident le déroulement d'une action ou d'une tâche:\n\t- Noeuds initiaux: point de départ de l'action (ouverture d'application par exemple).\n\t- Noeuds finaux de flux: pause ou fin temporaire (ajout au panier).\n\t- Noeuds finaux d'activité: fin de l'action ou de la tâche (envoi d'un mail de confirmation d'inscription).\n\t- Noeuds de décision: endroit où une décision doit être prise (Connection ou inscription d'un utilisateur).\n\t- Noeuds de fusion: convergence de chemins (lien vers la homepage disponible partout sur un site).\n\t- Noeuds de bifurcation: division d'un chemin en plusieurs (liens d'une barre de navigation).\n\t- Noeuds de jonctions: croisement et interaction de chemins (page récapitulative avant achat).",
+        "longDescription": "Ce diagramme montre comment différents éléments (appelés 'noeuds') interagissent et guident le déroulement d'une action ou d'une tâche:<br>&nbsp&nbsp&nbsp&nbsp- Noeuds initiaux: point de départ de l'action (ouverture d'application par exemple).<br>&nbsp&nbsp&nbsp&nbsp- Noeuds finaux de flux: pause ou fin temporaire (ajout au panier).<br>&nbsp&nbsp&nbsp&nbsp- Noeuds finaux d'activité: fin de l'action ou de la tâche (envoi d'un mail de confirmation d'inscription).<br>&nbsp&nbsp&nbsp&nbsp- Noeuds de décision: endroit où une décision doit être prise (Connection ou inscription d'un utilisateur).<br>&nbsp&nbsp&nbsp&nbsp- Noeuds de fusion: convergence de chemins (lien vers la homepage disponible partout sur un site).<br>&nbsp&nbsp&nbsp&nbsp- Noeuds de bifurcation: division d'un chemin en plusieurs (liens d'une barre de navigation).<br>&nbsp&nbsp&nbsp&nbsp- Noeuds de jonctions: croisement et interaction de chemins (page récapitulative avant achat).",
         "imageUrl": "assets/images/uml/interactions.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
@@ -124,7 +124,7 @@
         "title": "Diagramme d'activités",
         "type": "Comportemental",
         "shortDescription": "Illustration des étapes réalisées dans un cas d’utilisation",
-        "longDescription": "Les diagrammes d’activités représentent les étapes d'un cas d’utilisation. Les activités peuvent être séquentielles, ramifiées ou simultanées. Ce type de diagramme est utilisé pour montrer le comportement dynamique d’un système, mais il peut également être utile dans la modélisation des processus métier sous la forme de la représentation avancée d'un algorithme.\n\n",
+        "longDescription": "Les diagrammes d’activités représentent les étapes d'un cas d’utilisation. Les activités peuvent être séquentielles, ramifiées ou simultanées. Ce type de diagramme est utilisé pour montrer le comportement dynamique d’un système, mais il peut également être utile dans la modélisation des processus métier sous la forme de la représentation avancée d'un algorithme.<br><br>",
         "imageUrl": "assets/images/uml/activites.webp",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       }
@@ -174,7 +174,7 @@
         "title": "Modèle Conceptuel de Données - MCD",
         "type": "Modèles de données",
         "shortDescription": "Structurer les données de manière à éviter les redondances.",
-        "longDescription": "Egalement appelé modèle entité-association, permet de structurer les données de manière 'inteligente' afin d'éviter, par exemple, les redondances d'informations.\nLes informations sont regroupées en entités : regroupement d'information permettant de définir un objet ou un individu au sein du système d'information. L'entité dispose d'attributs/propriétés correspondant à la liste des informations la définissant ainsi que d'un identifiant (id).",
+        "longDescription": "Egalement appelé modèle entité-association, permet de structurer les données de manière 'inteligente' afin d'éviter, par exemple, les redondances d'informations.<br>Les informations sont regroupées en entités : regroupement d'information permettant de définir un objet ou un individu au sein du système d'information. L'entité dispose d'attributs/propriétés correspondant à la liste des informations la définissant ainsi que d'un identifiant (id).",
         "imageUrl": "assets/images/merise/mcd.webp",
         "source": ""
       },

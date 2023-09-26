@@ -10,6 +10,7 @@ export class AppComponent implements OnInit {
   showNavigation = false;
   isMobile: boolean = window.innerWidth < 768;
 
+
   ngOnInit(): void {
     window.addEventListener('resize', () => {
       this.isMobile = window.innerWidth < 768;

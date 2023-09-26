@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  /*font variables*/
+  --font-primary: "Montserrat", "sans-serif";
+  --font-secondary: "Inter", "sans-serif";
+  --font-size-base: 16px;
+  --font-size-large: 20px;
+  --font-size-xlarge: 32px;
+  /*colors variables*/
+  --color-primary: #FFFAF6;
+  --color-text:#131313;
+  /*shadow variables*/
+  --shadow-small: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  /*radius variables*/
+  --radius-small: 5px;
+  --radius-medium: 10px;
+}
+
+/*Global styling*/
+html {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-base);
+  color: var(--color-text);
+  background-color: var(--color-primary);
+}

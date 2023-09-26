@@ -1,3 +1,14 @@
+.card {
+  padding: 1rem;
+  border-radius: var(--radius-medium);
+  box-shadow: var(--shadow-small);
+}
+
+img {
+  height: 10rem;
+  border-radius: var(--radius-small);
+}
+
 p {
-    white-space: pre;
+  text-align: justify;
 }

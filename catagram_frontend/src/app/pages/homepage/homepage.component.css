@@ -1,0 +1,13 @@
+.container {
+  width: 100%;
+}
+.cards-container {
+  width: 100%;
+  display: flex;
+  margin: 1rem;
+  gap: 1rem
+}
+
+app-home-card {
+  flex: 1;
+}
