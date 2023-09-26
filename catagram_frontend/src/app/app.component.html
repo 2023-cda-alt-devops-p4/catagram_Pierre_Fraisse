@@ -1,4 +1,7 @@
+<!--MenuStatus triggers the event "toggleNavigationStatus()"-->
 <app-header (menuStatus)="toggleNavigationStatus($event)"></app-header>
-<app-navigation *ngIf="showNavigation || !isMobile"></app-navigation>
+<div class="navigation-wrapper" [ngClass]="{'isVisible': showNavigation}">
+  <app-navigation></app-navigation>
+</div>
 <router-outlet></router-outlet>
 <app-footer></app-footer>

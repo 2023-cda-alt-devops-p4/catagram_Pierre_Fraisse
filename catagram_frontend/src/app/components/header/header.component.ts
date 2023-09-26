@@ -7,7 +7,6 @@ import {Component, EventEmitter, OnInit, Output} from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   isMobile: boolean;
-
   @Output() menuStatus = new EventEmitter<boolean>();
   constructor() {
     this.isMobile = window.innerWidth < 768;

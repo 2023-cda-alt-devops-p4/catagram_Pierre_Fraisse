@@ -1,0 +1,17 @@
+
+@media (max-width: 767px) {
+  .navigation-wrapper {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease-in-out;
+  }
+
+  .navigation-wrapper.isVisible {
+    max-height: 1200px;
+  }
+
+  .navigation-wrapper.isVisible app-navigation {
+    opacity: 1;
+  }
+
+}
