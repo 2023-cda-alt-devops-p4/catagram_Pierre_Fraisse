@@ -1,10 +1,9 @@
 <div class="card">
-  <div class="card-body">
-    <div class="img-container" *ngIf="diagram?.imageUrl">
-      <img [src]="diagram.imageUrl" [alt]="diagram.title">
-    </div>
-    <h5 class="card-title">{{ diagram?.title }}</h5>
+  <img *ngIf="diagram?.imageUrl" [src]="diagram.imageUrl" [alt]="diagram.title">
+  <div class="text-container">
+    <h4 class="card-title">{{ diagram?.title }}</h4>
     <p class="card-text">{{ diagram?.shortDescription }}</p>
     <a href="javascript:void(0)" (click)="triggerOpenModal()">En savoir plus</a>
   </div>
+
 </div>
