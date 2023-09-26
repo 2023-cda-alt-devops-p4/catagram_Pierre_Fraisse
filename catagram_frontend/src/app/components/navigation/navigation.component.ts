@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import * as dataModels from '../../data/diagrams.json';
+import * as dataModels from '../../../assets/data/diagrams.json';
 
 @Component({
   selector: 'app-navigation',

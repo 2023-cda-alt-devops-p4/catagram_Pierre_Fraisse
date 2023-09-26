@@ -13,6 +13,7 @@ import { CardMiniComponent } from './components/card-mini/card-mini.component';
 import { AccordionComponent } from './components/accordion/accordion.component';
 import { HamburgerComponent } from './components/hamburger/hamburger.component';
 import { HomeCardComponent } from './components/home-card/home-card.component';
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { HomeCardComponent } from './components/home-card/home-card.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import * as globalDesc from 'src/app/data/global-desc.json';
+import {GlobalDesc} from "../../models/global-desc";
+import {GlobalDescService} from "../../services/global-desc.service";
 
 @Component({
   selector: 'app-homepage',
@@ -7,7 +8,13 @@ import * as globalDesc from 'src/app/data/global-desc.json';
   styleUrls: ['./homepage.component.css']
 })
 export class HomepageComponent implements OnInit {
-  globalDescriptions: any = (globalDesc as any).default;
+  globalDescriptions: GlobalDesc[] = [];
 
-  ngOnInit(): void {}
+  constructor(private globalDescService: GlobalDescService) {}
+
+  ngOnInit(): void {
+    this.globalDescService.fetchGlobalDescription().subscribe(desc => {
+      this.globalDescriptions = desc;
+    })
+  }
 }
