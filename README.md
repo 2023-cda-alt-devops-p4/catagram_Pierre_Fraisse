@@ -52,6 +52,7 @@ Pierre Fraisse
 0.2 : all diagrams description and images, responsive nav and header, animated hamburger menu
 0.3 : all site design is user-ready and responsive
 0.4 : creation of the interfaces and service
+0.5 : services and interfaces, dark mode, search bar
 
 ## License
 

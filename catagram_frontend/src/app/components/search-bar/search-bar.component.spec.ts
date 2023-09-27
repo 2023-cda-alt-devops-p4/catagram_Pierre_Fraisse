@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MeriseComponent } from './merise.component';
+import { SearchBarComponent } from './search-bar.component';
 
-describe('MeriseComponent', () => {
-  let component: MeriseComponent;
-  let fixture: ComponentFixture<MeriseComponent>;
+describe('SearchBarComponent', () => {
+  let component: SearchBarComponent;
+  let fixture: ComponentFixture<SearchBarComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [MeriseComponent]
+      declarations: [SearchBarComponent]
     });
-    fixture = TestBed.createComponent(MeriseComponent);
+    fixture = TestBed.createComponent(SearchBarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

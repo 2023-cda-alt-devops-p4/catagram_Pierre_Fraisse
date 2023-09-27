@@ -1,5 +1,6 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {Diagram} from "../../models/diagram";
+import {AccordionService} from "../../services/accordion.service";
 
 @Component({
   selector: 'app-accordion',
@@ -9,20 +10,13 @@ import {Diagram} from "../../models/diagram";
 export class AccordionComponent implements OnInit {
   @Input() diagrams: Diagram[] = [];
   @Input() dataModelTitle: string = '';
-
   groupedDiagrams: { [key: string]: Diagram[] } = {};
-
   public Object = Object;
 
+  constructor(private accordionService: AccordionService) { }
   // Group the different diagrams into arrays by types
   ngOnInit() {
-    this.groupedDiagrams = this.diagrams.reduce((acc: { [type: string]: Diagram[] }, diagram: Diagram) => {
-      if (!acc[diagram.type]) {
-        acc[diagram.type] = [];
-      }
-      acc[diagram.type].push(diagram);
-      return acc;
-    }, {});
+    this.groupedDiagrams = this.accordionService.groupDiagramsByType(this.diagrams);
   }
 
   // Handles the opening/closing of the accordion component

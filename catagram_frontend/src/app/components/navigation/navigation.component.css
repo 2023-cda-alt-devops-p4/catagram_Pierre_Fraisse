@@ -9,4 +9,5 @@ a {
   font-size: var(--font-size-large);
   color: var(--color-text);
   font-weight: 700;
+  transition: color 0.3s;
 }
