@@ -1,4 +1,5 @@
 import {Component, EventEmitter, Output} from '@angular/core';
+import {MenuService} from '../../services/menu.service';
 
 @Component({
   selector: 'app-hamburger',
@@ -9,9 +10,14 @@ export class HamburgerComponent {
   @Output() menuToggle = new EventEmitter<boolean>();
   isOpen = false;
 
-  toggleMenu() {
-    this.isOpen = !this.isOpen;
-    this.menuToggle.emit(this.isOpen);
+  constructor(private menuService: MenuService) {
+    this.menuService.menuState$.subscribe(state => {
+      this.isOpen = state;
+      this.menuToggle.emit(this.isOpen);
+    });
   }
 
+  toggleMenu() {
+    this.menuService.toggleMenu();
+  }
 }

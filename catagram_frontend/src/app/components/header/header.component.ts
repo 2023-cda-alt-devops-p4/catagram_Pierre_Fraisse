@@ -32,8 +32,8 @@ export class HeaderComponent implements OnInit {
 
 
   }
-  handleMenuToggle(event: boolean) {
-    this.menuStatus.emit(event);
+  handleMenuToggle(isMenuOpen: boolean) {
+    this.menuStatus.emit(isMenuOpen);
   }
 }
 
