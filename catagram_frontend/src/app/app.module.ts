@@ -14,6 +14,8 @@ import { HomeCardComponent } from './components/home-card/home-card.component';
 import {HttpClientModule} from "@angular/common/http";
 import { DiagramPageComponent } from './pages/diagram-page/diagram-page.component';
 import { SearchBarComponent } from './components/search-bar/search-bar.component';
+import { DarkModeToggleComponent } from './components/dark-mode-toggle/dark-mode-toggle.component';
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -28,12 +30,14 @@ import { SearchBarComponent } from './components/search-bar/search-bar.component
     HamburgerComponent,
     HomeCardComponent,
     DiagramPageComponent,
-    SearchBarComponent
+    SearchBarComponent,
+    DarkModeToggleComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

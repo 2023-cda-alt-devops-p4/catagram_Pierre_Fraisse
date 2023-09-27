@@ -10,8 +10,9 @@
 .bar {
   width: 100%;
   height: 4px;
-  background-color: #333;
+  background-color: var(--color-text);
   transition: 0.3s;
+  transition: background-color 0.3s;
 }
 
 .hamburger-menu.open .bar:nth-child(1) {

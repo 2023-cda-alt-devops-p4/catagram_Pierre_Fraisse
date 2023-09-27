@@ -12,6 +12,11 @@
   --color-primary: #FFFAF6;
   --color-secondary: #DDD1CF;
   --color-text:#131313;
+  --input-color: #aaa;
+  /* dark mode colors */
+  --color-primary-dark: #131313;
+  --color-secondary-dark: #2C2C2C;
+  --color-text-dark: #E5E5E5;
   /*shadow variables*/
   --shadow-small: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   --shadow-large: rgba(149, 157, 165, 0.25) 0px 10px 28px;
@@ -22,6 +27,11 @@
   --small-images: 5rem;
   --medium-images: 10rem;
   --large-images: 20rem;
+  /*  images url*/
+  --logo-url: url('assets/logo/CataGram-logo.svg');
+  --logo-title-url: url('assets/logo/CataGram-title.svg');
+  --logo-url-dark: url('assets/logo/CataGram-logo-dark.svg');
+  --logo-title-url-dark: url('assets/logo/CataGram-title-dark.svg');
 }
 
 /*Global styling*/
@@ -36,6 +46,15 @@ html {
   font-size: var(--font-size-mobile);
   color: var(--color-text);
   background-color: var(--color-primary);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  --color-primary: var(--color-primary-dark);
+  --color-secondary: var(--color-secondary-dark);
+  --color-text: var(--color-text-dark);
+  --logo-url: var(--logo-url-dark);
+  --logo-title-url: var(--logo-title-url-dark);
 }
 
 @media (min-width: 481px) {

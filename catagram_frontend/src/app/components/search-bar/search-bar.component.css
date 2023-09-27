@@ -2,7 +2,7 @@
     width: 100%;
     display: flex;
 }
-input.styled-input {
+.styled-input {
     width: 30%;
     background-color: var(--color-primary);
     border: none;
@@ -12,9 +12,12 @@ input.styled-input {
     font-family: var(--font-primary); /* replace 'YourFontFamily' with your actual font family */
     font-size: var(--font-size-med-large);
     padding: 10px 5px;
+    caret-color: var(--input-color);
+    transition: caret-color 0.3s, background-color 0.3s;
 }
 
 /* Placeholder styles, if you want to customize the look of the placeholder */
-input.styled-input::placeholder {
-    color: #aaa;
+.styled-input::placeholder {
+    color: var(--input-color);
+    transition: color 0.3s;
 }
