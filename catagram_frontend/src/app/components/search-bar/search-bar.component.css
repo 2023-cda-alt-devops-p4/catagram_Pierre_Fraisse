@@ -1,0 +1,20 @@
+.input-container {
+    width: 100%;
+    display: flex;
+}
+input.styled-input {
+    width: 30%;
+    background-color: var(--color-primary);
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--color-secondary);
+    border-left: 1px solid var(--color-secondary);
+    font-family: var(--font-primary); /* replace 'YourFontFamily' with your actual font family */
+    font-size: var(--font-size-med-large);
+    padding: 10px 5px;
+}
+
+/* Placeholder styles, if you want to customize the look of the placeholder */
+input.styled-input::placeholder {
+    color: #aaa;
+}

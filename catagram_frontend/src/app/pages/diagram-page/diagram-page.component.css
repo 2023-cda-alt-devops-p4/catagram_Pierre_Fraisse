@@ -7,6 +7,10 @@
     align-items: center;
 }
 
+app-search-bar {
+    width: 100%;
+}
+
 .cards-container {
     width: 100%;
     display: flex;

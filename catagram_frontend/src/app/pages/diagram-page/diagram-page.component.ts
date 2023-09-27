@@ -1,11 +1,12 @@
-import { Component, Input, OnDestroy, OnInit } from '@angular/core';
-import { Diagram } from "../../models/diagram";
-import { DataModel } from "../../models/data-model";
-import { DiagramsService } from "../../services/diagrams.service";
+import { Component, OnDestroy, OnInit } from '@angular/core';
+import { ActivatedRoute } from "@angular/router";
 import { Subscription } from "rxjs";
+
+import { Diagram } from "../../models/diagram";
+import { AccordionService } from "../../services/accordion.service";
+import { DiagramsService } from "../../services/diagrams.service";
 import { ModalService } from "../../services/modal.service";
-import {ActivatedRoute} from "@angular/router";
-import {AccordionService} from "../../services/accordion.service";
+import { SearchService } from "../../services/search.service";
 
 @Component({
   selector: 'app-diagram-page',
@@ -15,10 +16,11 @@ import {AccordionService} from "../../services/accordion.service";
 export class DiagramPageComponent implements OnInit, OnDestroy {
   dataModelTypes: string[] = [];
   dataModelType: string | null = null;
-  dataModels: DataModel[] = [];
   diagramsByType: { [type: string]: Diagram[] } = {};
   showModal: boolean = false;
   activeDiagram: Diagram | null = null;
+  displayedDiagramsByType: { [type: string]: Diagram[] } = {};
+  allDiagramsForCurrentModel: Diagram[] = [];
 
   private subscription: Subscription = new Subscription();
 
@@ -26,8 +28,8 @@ export class DiagramPageComponent implements OnInit, OnDestroy {
       private diagramsService: DiagramsService,
       private modalService: ModalService,
       private route: ActivatedRoute,
-      private accordionService: AccordionService
-
+      private accordionService: AccordionService,
+      private searchService: SearchService
   ) { }
 
   ngOnInit() {
@@ -37,7 +39,6 @@ export class DiagramPageComponent implements OnInit, OnDestroy {
       this.diagramsService.getDataModelTypes().subscribe(types => {
         this.dataModelTypes = types;
       });
-
 
       this.modalService.showModal$.subscribe(isOpen => {
         this.showModal = isOpen;
@@ -50,12 +51,11 @@ export class DiagramPageComponent implements OnInit, OnDestroy {
       this.diagramsService.fetchDataModel().subscribe(dataModel => {
         const currentModel = dataModel.find(dm => dm.dataModel === this.dataModelType);
         if (currentModel) {
+          this.allDiagramsForCurrentModel = currentModel.diagrams;
           this.diagramsByType = this.accordionService.groupDiagramsByType(currentModel.diagrams);
+          this.displayedDiagramsByType = {...this.diagramsByType};
         }
       });
-
-
-
     });
   }
 
@@ -72,18 +72,21 @@ export class DiagramPageComponent implements OnInit, OnDestroy {
     return modelType === 'uml' ? 'Diagrammes UML' : 'Modèles MERISE';
   }
 
-  get diagramsForCurrentType(): Diagram[] {
-    return this.diagramsByType[this.dataModelType || ''] || [];
+  getDisplayedDiagramTypes(): string[] {
+    return Object.keys(this.displayedDiagramsByType);
   }
 
-  getDiagramTypes(): string[] {
-    return Object.keys(this.diagramsByType);
+  handleSearch(query: string) {
+    let filtered: Diagram[] = [];
+    if (query.trim() === "") {
+      this.displayedDiagramsByType = {...this.diagramsByType};
+    } else {
+      filtered = this.searchService.search(this.allDiagramsForCurrentModel, query);
+      this.displayedDiagramsByType = this.accordionService.groupDiagramsByType(filtered);
+    }
   }
-
 
   ngOnDestroy() {
-    if (this.subscription) {
       this.subscription.unsubscribe();
-    }
   }
 }

@@ -13,6 +13,7 @@ import { HamburgerComponent } from './components/hamburger/hamburger.component';
 import { HomeCardComponent } from './components/home-card/home-card.component';
 import {HttpClientModule} from "@angular/common/http";
 import { DiagramPageComponent } from './pages/diagram-page/diagram-page.component';
+import { SearchBarComponent } from './components/search-bar/search-bar.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { DiagramPageComponent } from './pages/diagram-page/diagram-page.componen
     AccordionComponent,
     HamburgerComponent,
     HomeCardComponent,
-    DiagramPageComponent
+    DiagramPageComponent,
+    SearchBarComponent
   ],
   imports: [
     BrowserModule,

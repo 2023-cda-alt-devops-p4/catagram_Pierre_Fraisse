@@ -1,9 +1,10 @@
 <div class="container">
     <h2>{{ getTitle(dataModelType) }}</h2>
-    <div class="cards-container" *ngFor="let type of getDiagramTypes()">
+    <app-search-bar (searchEvent)="handleSearch($event)"></app-search-bar>
+    <div class="cards-container" *ngFor="let type of getDisplayedDiagramTypes()">
         <h3>{{ type }}</h3>
         <div class="cards-type-container">
-            <div class="card-container" *ngFor="let diagram of diagramsByType[type]">
+            <div class="card-container" *ngFor="let diagram of displayedDiagramsByType[type]">
                 <app-card-mini [diagram]="diagram" (openModalRequest)="openModal($event)"></app-card-mini>
                 <app-card *ngIf="showModal && activeDiagram === diagram"
                           [diagram]="activeDiagram"
