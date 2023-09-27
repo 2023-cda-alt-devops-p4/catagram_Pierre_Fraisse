@@ -5,6 +5,7 @@ import { DiagramsService } from "../../services/diagrams.service";
 import { Subscription } from "rxjs";
 import { ModalService } from "../../services/modal.service";
 import {ActivatedRoute} from "@angular/router";
+import {AccordionService} from "../../services/accordion.service";
 
 @Component({
   selector: 'app-diagram-page',
@@ -15,7 +16,7 @@ export class DiagramPageComponent implements OnInit, OnDestroy {
   dataModelTypes: string[] = [];
   dataModelType: string | null = null;
   dataModels: DataModel[] = [];
-  diagrams: Diagram[] = [];
+  diagramsByType: { [type: string]: Diagram[] } = {};
   showModal: boolean = false;
   activeDiagram: Diagram | null = null;
 
@@ -24,7 +25,8 @@ export class DiagramPageComponent implements OnInit, OnDestroy {
   constructor(
       private diagramsService: DiagramsService,
       private modalService: ModalService,
-      private route: ActivatedRoute
+      private route: ActivatedRoute,
+      private accordionService: AccordionService
 
   ) { }
 
@@ -46,9 +48,14 @@ export class DiagramPageComponent implements OnInit, OnDestroy {
       });
 
       this.diagramsService.fetchDataModel().subscribe(dataModel => {
-        this.dataModels = dataModel;
-        this.diagrams = this.dataModels.find(dm => dm.dataModel === this.dataModelType)?.diagrams || [];
+        const currentModel = dataModel.find(dm => dm.dataModel === this.dataModelType);
+        if (currentModel) {
+          this.diagramsByType = this.accordionService.groupDiagramsByType(currentModel.diagrams);
+        }
       });
+
+
+
     });
   }
 
@@ -66,7 +73,11 @@ export class DiagramPageComponent implements OnInit, OnDestroy {
   }
 
   get diagramsForCurrentType(): Diagram[] {
-    return this.diagrams;
+    return this.diagramsByType[this.dataModelType || ''] || [];
+  }
+
+  getDiagramTypes(): string[] {
+    return Object.keys(this.diagramsByType);
   }
 
 
