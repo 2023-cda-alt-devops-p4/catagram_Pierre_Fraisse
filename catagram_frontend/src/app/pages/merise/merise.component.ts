@@ -3,6 +3,7 @@ import { Diagram } from "../../models/diagram";
 import { DataModel } from "../../models/data-model";
 import {DiagramsService} from "../../services/diagrams.service";
 import {Subscription} from "rxjs";
+import {ModalService} from "../../services/modal.service";
 
 @Component({
   selector: 'app-merise',
@@ -13,11 +14,21 @@ export class MeriseComponent implements OnInit, OnDestroy {
   dataModels: DataModel[] = [];
   meriseDiagrams: Diagram[] = [];
   showModal: boolean = false;
-  activeDiagram?: Diagram;
+  activeDiagram: Diagram | null = null;
 
   private subscription: Subscription = new Subscription();
-  constructor(private diagramsService: DiagramsService) {}
+  constructor(private diagramsService: DiagramsService,
+              private modalService: ModalService
+  ) {}
   ngOnInit() {
+    this.modalService.showModal$.subscribe(isOpen => {
+      this.showModal = isOpen;
+    })
+
+    this.modalService.activeDiagram$.subscribe(diagram => {
+      this.activeDiagram = diagram;
+    })
+
     this.diagramsService.fetchDataModel().subscribe(dataModel => {
       this.dataModels = dataModel;
       this.meriseDiagrams = this.dataModels.find(dm => dm.dataModel === 'merise')?.diagrams || [];
