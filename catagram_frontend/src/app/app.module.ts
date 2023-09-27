@@ -14,6 +14,7 @@ import { AccordionComponent } from './components/accordion/accordion.component';
 import { HamburgerComponent } from './components/hamburger/hamburger.component';
 import { HomeCardComponent } from './components/home-card/home-card.component';
 import {HttpClientModule} from "@angular/common/http";
+import { DiagramPageComponent } from './pages/diagram-page/diagram-page.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import {HttpClientModule} from "@angular/common/http";
     CardMiniComponent,
     AccordionComponent,
     HamburgerComponent,
-    HomeCardComponent
+    HomeCardComponent,
+    DiagramPageComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,9 @@
+<div class="container">
+    <h2>{{ getTitle(dataModelType) }}</h2>
+    <div class="cards-container">
+        <div class="card-container" *ngFor="let diagram of diagrams">
+        <app-card-mini [diagram]="diagram" (openModalRequest)="openModal($event)"></app-card-mini>
+            <app-card *ngIf="showModal" [diagram]="activeDiagram" [showModal]="showModal" (close)="closeModal()"></app-card>
+        </div>
+    </div>
+</div>
