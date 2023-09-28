@@ -1,8 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "open-sauce";
+  src: url('assets/fonts/OpenSauceOne-Regular.ttf');
+}
 :root {
   /*font variables*/
-  --font-primary: "Montserrat", "sans-serif";
-  --font-secondary: "Inter", "sans-serif";
+  --font-primary: "open-sauce", "sans-serif";
+  --font-secondary: "open-sauce", "sans-serif";
   --font-size-mobile: 12px;
   --font-size-base: 16px;
   --font-size-med-large: 1.2rem;
@@ -14,7 +17,7 @@
   --color-text:#131313;
   --input-color: #aaa;
   /* dark mode colors */
-  --color-primary-dark: #131313;
+  --color-primary-dark: #2d2d30;
   --color-secondary-dark: #2C2C2C;
   --color-text-dark: #E5E5E5;
   /*shadow variables*/
@@ -32,6 +35,8 @@
   --logo-title-url: url('assets/logo/CataGram-title.svg');
   --logo-url-dark: url('assets/logo/CataGram-logo-dark.svg');
   --logo-title-url-dark: url('assets/logo/CataGram-title-dark.svg');
+  --moon-icon: url('assets/icons/moon-svgrepo-com.svg');
+  --sun-icon: url('assets/icons/sun-alt-svgrepo-com.svg');
 }
 
 /*Global styling*/
@@ -55,6 +60,7 @@ html {
   --color-text: var(--color-text-dark);
   --logo-url: var(--logo-url-dark);
   --logo-title-url: var(--logo-title-url-dark);
+  --moon-icon: var(--sun-icon);
 }
 
 @media (min-width: 481px) {
