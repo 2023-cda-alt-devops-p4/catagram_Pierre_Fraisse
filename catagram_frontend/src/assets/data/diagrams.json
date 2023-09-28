@@ -4,11 +4,92 @@
     "diagrams": [
       {
         "id": 1,
+        "title": "Classe",
+        "type": "Bases",
+        "shortDescription": "Modèle abstrait d'objets.",
+        "longDescription": "Une classe est une définition ou un modèle abstrait qui représente un groupe d'objets ayant des propriétés (attributs) et des comportements (méthodes) communs. Elle décrit les caractéristiques et les comportements que ses instances (ou objets) auront.<br><br>Elle est représentée par un rectangle divisé en trois parties :<br>&nbsp&nbsp&nbsp&nbsp- Le nom de la classe..<br>&nbsp&nbsp&nbsp&nbsp- Ses attributs .<br>&nbsp&nbsp&nbsp&nbsp- Ses méthodes .<br><br><img class='illustration' src='assets/images/uml/class/class-ex1.png'><br><br>Les différents types de visibilité sont représentés par :<br>&nbsp&nbsp&nbsp&nbsp- un '-' pour 'private'.<br>&nbsp&nbsp&nbsp&nbsp- un '+' pour 'public'.<br>&nbsp&nbsp&nbsp&nbsp- Un '#' pour 'protected'.<br>&nbsp&nbsp&nbsp&nbsp- Un '~' pour 'package/default'.",
+        "imageUrl": "assets/images/uml/class/class-main.png",
+        "source": "https://www.uml-diagrams.org/class.html"
+      },
+      {
+        "id": 6,
+        "title": "Relations",
+        "type": "Bases",
+        "shortDescription": "Interactions entre les éléments.",
+        "longDescription": "Les relations en UML décrivent la manière dont différents éléments d'un modèle interagissent ou sont connectés les uns aux autres. Il existe plusieurs types de relations en UML, chacune avec sa propre notation et signification.<br><br>Les relations entre les classes sont représentées par différents types de flèches. Parmis ces relations, nous pouvons trouver des relations d'héritage :<br>&nbsp&nbsp&nbsp&nbsp- Généralisation (une classe hérite d'une autre classe) :<br><br><img class='illustration' src='assets/images/uml/class/generalization.png'><br><br>&nbsp&nbsp&nbsp&nbsp- Réalisation (une classe implémente une interface) :<br><br><img class='illustration' src='assets/images/uml/class/realization.png'><br><br>Il existe également des relations d'usage :<br>&nbsp&nbsp&nbsp&nbsp- Dépendance (l'usage d'un objet par un autre) :<br><br><img class='illustration' src='assets/images/uml/class/dependency.png'><br><br>&nbsp&nbsp&nbsp&nbsp- Association unidirectionelle (un objet peut en stocker un autre dans un champ) :<br><br><img class='illustration' src='assets/images/uml/class/unidirectional.png'><br><br>&nbsp&nbsp&nbsp&nbsp- Association bidirectionelle (deux objets se stockent mutuellement) :<br><br><img class='illustration' src='assets/images/uml/class/bidirectional.png'><br><br>&nbsp&nbsp&nbsp&nbsp- Aggrégation (un objet 1 stock un objet B et l'objet B fait partie de l'objet A) :<br><br><img class='illustration' src='assets/images/uml/class/aggregation.png'><br><br>&nbsp&nbsp&nbsp&nbsp- Composition (une aggregation dont les deux objets ont la même espérance de vie) :<br><br><img class='illustration' src='assets/images/uml/class/composition.png'><br><br>La multiplicité (le nombre d'une classe liée à une autre) des relations entre les classes est représentée par des symboles disposées directement sur ou à coté des flèches :<br>&nbsp&nbsp&nbsp&nbsp- Zero to one : 0..1.<br>&nbsp&nbsp&nbsp&nbsp- Un nombre spécifique : n.<br>&nbsp&nbsp&nbsp&nbsp- Zero to many : 0..*.<br>&nbsp&nbsp&nbsp&nbsp- One to many : 1..*.<br>&nbsp&nbsp&nbsp&nbsp- Une fourchette : m..n.",
+        "imageUrl": "assets/images/uml/comment/comment-note.png",
+        "source": "https://www.uml-diagrams.org/uml-core.html#comment"
+      },
+      {
+        "id": 2,
+        "title": "Objet",
+        "type": "Bases",
+        "shortDescription": "Instance d'une classe.",
+        "longDescription": "Un objet est une instance d'une classe. Par exemple, pour la classe abstraite 'oiseau', on initialise l'objet 'pigeon' qui va hériter de tous les attributs et méthodes de sa classe.",
+        "imageUrl": "assets/images/uml/object/object-ex1.png",
+        "source": "https://www.uml-diagrams.org/object.html"
+      },
+      {
+        "id": 3,
+        "title": "Interface",
+        "type": "Bases",
+        "shortDescription": "Contrat de comportement pour les classes.",
+        "longDescription": "Contrairement à une classe qui fournit une implémentation pour ses méthodes, une interface définit un contrat (sous forme de déclarations de méthodes) que les autres classes ou interfaces peuvent choisir d'implémenter.<br> Une interface peut être implémentée par une ou plusieurs classe, de la même manière qu'une classe peut implémenter plusieurs interfaces.<br>On peut distinguer deux types d'interfaces :<br><br>&nbsp&nbsp&nbsp&nbsp- L'interface fournie (provided interface) par un composant qui indique les services que ce composant offre aux autres composants ou au monde extérieur :<br><br><img class='illustration' src='assets/images/uml/interface/interface-provided.png'><br><br>&nbsp&nbsp&nbsp&nbsp- L'interface requise (required interface) par un composant pour un composant pour fonctionner correctement :<br><br><img class='illustration' src='assets/images/uml/interface/interface-required.png'>\"",
+        "imageUrl": "assets/images/uml/interface/interface-ex1.png",
+        "source": "https://www.uml-diagrams.org/interface.html"
+      },
+      {
+        "id": 4,
+        "title": "Paquetage",
+        "type": "Bases",
+        "shortDescription": "Regroupement d'éléments.",
+        "longDescription": "Un paquetage (package) est un conteneur qui peut contenir différents types d'éléments de modélisation, tels que des classes, des interfaces, des composants, des sous-packages, etc. Il est utilisé pour organiser ces éléments en groupes logiques, facilitant ainsi la gestion, la réutilisation et la maintenance.<br>Ses membres peuvent être visibles à l'intérieur de ce dernier : <br><br><img class='illustration' src='assets/images/uml/package/package-container.png'><br><br>ou bien à l'extérieur :<br><br><img class='illustration' src='assets/images/uml/package/package-outside.png'><br><br>Enfin, on ne peut définir la visibilité des éléments du package que par public ou privé :<br><br><img class='illustration' src='assets/images/uml/package/package-visibility.png'><br><br>Une URI peut être également visible :<br><br><img class='illustration' src='assets/images/uml/package/profile-uri-attribute.png'><br><br>Enfin, un package peut être utilisé comme template et lié à d'autres packages :<br><br><img class='illustration' src='assets/images/uml/package/package-template.png'>",
+        "imageUrl": "assets/images/uml/package/package-main.png",
+        "source": "https://www.uml-diagrams.org/package-diagrams.html#package"
+      },
+      {
+        "id": 5,
+        "title": "Contrainte",
+        "type": "Bases",
+        "shortDescription": "Règle à suivre pour les éléments.",
+        "longDescription": "Une contrainte est une expression qui décrit une condition que les éléments modélisés doivent satisfaire. Une contrainte est souvent exprimée sous forme de texte, et dans de nombreux cas, elle est formulée en langage OCL (Object Constraint Language). L'OCL est un langage formel spécifiquement conçu pour décrire des expressions qui ne peuvent pas être facilement modélisées à l'aide des éléments graphiques UML.<br><br>Pour une contrainte s'appliquant à un attribut, elle peut uivre l'attribut entre accolades :<br><br><img class='illustration' src='assets/images/uml/constraint/constraint-attribute.png'><br><br>Une contrainte s'appliquant à un seul élément sera placée à côté de l'élément. Si elle s'applique à deux ou plusieurs elle sera placée entre ces éléments sur ligne pointillée :<br><br><img class='illustration' src='assets/images/uml/constraint/constraint-dashed.png'><br><br>Elle peut également être placée à la manière d'une note :<br><br><img class='illustration' src='assets/images/uml/constraint/constraint-note.png'>",
+        "imageUrl": "assets/images/uml/constraint/constraint-attribute.png",
+        "source": "https://www.uml-diagrams.org/package-diagrams.html#package"
+      },
+      {
+        "id": 6,
+        "title": "Commentaires",
+        "type": "Bases",
+        "shortDescription": "Ajout d'explication, de clarifications.",
+        "longDescription": "Les notes, souvent appelées commentaires en UML, sont un mécanisme pour ajouter des explications, des clarifications ou des informations supplémentaires à un modèle UML. Elles permettent aux concepteurs, aux développeurs et aux autres parties prenantes de comprendre mieux le contexte, les décisions ou les détails qui ne sont pas explicitement couverts par la notation graphique standard d'UML.",
+        "imageUrl": "assets/images/uml/comment/comment-note.png",
+        "source": "https://www.uml-diagrams.org/uml-core.html#comment"
+      },
+      {
+        "id": 7,
+        "title": "Interactions",
+        "type": "Bases",
+        "shortDescription": "Echanges d'informations.",
+        "longDescription": "L'interaction en UML se réfère à une unité comportementale qui met en évidence les échanges d'informations (souvent sous forme de messages) entre les objets ou les composants au cours d'un scénario spécifique. Les interactions sont principalement illustrées dans les diagrammes d'interaction UML, qui comprennent les diagrammes de séquence, de communication, de timing et d'interaction overview.",
+        "imageUrl": "assets/images/uml/interaction/sequence-diagram.png",
+        "source": "https://www.uml-diagrams.org/uml-core.html#comment"
+      },
+      {
+        "id": 7,
+        "title": "Stéréotype",
+        "type": "Bases",
+        "shortDescription": "Mécanisme d'extension.",
+        "longDescription": "En UML, un stéréotype est un mécanisme d'extension qui permet d'ajouter de nouvelles significations ou de spécialiser les significations d'éléments existants du modèle. Les stéréotypes fournissent un moyen de créer de nouveaux types d'éléments de modèle en construisant sur les éléments existants. C'est une partie essentielle des profils UML, qui sont utilisés pour personnaliser UML pour des domaines ou des plateformes spécifiques.<br>Chaque stéréotype à un nom unique, s'applique à un élément existant et peut introduire des propriétés inconnues à l'élément auquel il s'attache.<br>Il permettent d'apporter des précisions lorsque le modèle UML est trop général.",
+        "imageUrl": "assets/images/uml/stereotype/stereotype.png",
+        "source": "https://www.uml-diagrams.org/stereotype.html"
+      },
+      {
+        "id": 1,
         "title": "Diagramme de classe",
         "type": "Structurel",
         "shortDescription": "Diagramme le plus employé, exposant la structure statique d'un système.",
-        "longDescription": "Le diagramme de classe est le diagramme le plus employé. Il permet de représenter fidèlement un système programmer en orienté objet.<br>Il représente les classes d'un système de manière statique ainsi que les liens entre elles, leurs attributs et comportements.<br><br>Une classe est représentée par un rectangle divisé en trois parties :<br>&nbsp&nbsp&nbsp&nbsp- Le nom de la classe (première lettre en majuscule. Ex: User).<br>&nbsp&nbsp&nbsp&nbsp- Ses attributs (avec son type de visibilité devant chaque et en minuscule, puis deux points et leur type. Ex: -id: int).<br>&nbsp&nbsp&nbsp&nbsp- Ses méthodes (avec son type de visibilité , en camel case puis des parenthèses et enfin, optionnellement, son type. Ex: +setName(): string).<br><br>Les différents types de visibilité sont représentés par :<br>&nbsp&nbsp&nbsp&nbsp- un '-' pour 'private'.<br>&nbsp&nbsp&nbsp&nbsp- un '+' pour 'public'.<br>&nbsp&nbsp&nbsp&nbsp- Un '#' pour 'protected'.<br>&nbsp&nbsp&nbsp&nbsp- Un '~' pour 'package/default'.<br><br>Les relations entre les classes sont représentées par différents types de flèches pour l'héritage, la composition, l'aggrégation... toutes expliquées <a href='https://creately.com/guides/class-diagram-relationships/' target='_blank'>ici</a>.<br><br>La multiplicité (le nombre d'une classe liée à une autre) des relations entre les classes est représentée par des symboles disposées directement sur ou à coté des flèches :<br>&nbsp&nbsp&nbsp&nbsp- Zero to one : 0..1.<br>&nbsp&nbsp&nbsp&nbsp- Un nombre spécifique : n.<br>&nbsp&nbsp&nbsp&nbsp- Zero to many : 0..*.<br>&nbsp&nbsp&nbsp&nbsp- One to many : 1..*.<br>&nbsp&nbsp&nbsp&nbsp- Une fourchette : m..n.",
-        "imageUrl": "assets/images/uml/classe.webp",
+        "longDescription": "Diagramme le plus employé, il permet la représentation fidèle d'un système programmé en orienté objet.<br>Il représente les classes de manière statique ainsi que les liens entre elles, leurs attributs et comportements.<br><br>",
+        "imageUrl": "assets/images/uml/class/class-diagram.png",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
       {
@@ -16,8 +97,8 @@
         "title": "Diagramme de composants",
         "type": "Structurel",
         "shortDescription": "Découpage d'un système complexe en composants de taille réduite.",
-        "longDescription": "Un diagramme de composants est une version plus spécifique du diagramme de classes, et les mêmes règles de notation s’appliquent. Ce type de visuel représente des composants de taille réduite ainsi que leurs interactions.",
-        "imageUrl": "assets/images/uml/composants.webp",
+        "longDescription": "Un diagramme de composants est une version plus spécifique du diagramme de classes, et les mêmes règles de notation s’appliquent. Ce type de visuel représente des composants de taille réduite ainsi que leurs interactions.<br><br>Un composant est une classe représentant :<br>&nbsp&nbsp&nbsp&nbsp- Un élément physique, c'est à dire un élément de code (source, binaire ou exécutable), un script, fichier de commandes, de données, une table...<br>&nbsp&nbsp&nbsp&nbsp- Un regroupement logique (rarement).<br><br> Il peut réaliser un ensemble d'interfaces qui définissent alors le comportement offert à d'autres composants.<br><br>Il peut être représenté des deux manières suivantes :<br><br><img class='illustration' src='assets/images/uml/component/component.png'<br><br><img class='illustration' src='assets/images/uml/component/component-icon.png'",
+        "imageUrl": "assets/images/uml/component/component-diagram.png",
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
       {
