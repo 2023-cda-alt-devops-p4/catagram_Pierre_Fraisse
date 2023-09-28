@@ -21,6 +21,7 @@ app-search-bar {
 }
 
 .cards-type-container {
+  width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
