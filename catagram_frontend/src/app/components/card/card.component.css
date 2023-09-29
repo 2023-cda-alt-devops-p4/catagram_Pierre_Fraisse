@@ -53,9 +53,7 @@
 }
 
 img {
-  height: 100%;
   max-height: var(--large-images);
-  max-width: 100%;
 }
 
 p {
