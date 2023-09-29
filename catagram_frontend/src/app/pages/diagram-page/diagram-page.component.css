@@ -21,8 +21,10 @@ app-search-bar {
 }
 
 .cards-type-container {
+  width: 100%;
     display: flex;
     flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .card-container {
@@ -42,7 +44,7 @@ h3 {
 }
 
 @media(min-width: 769px) {
-    .cards-container {
+    .cards-type-container {
         gap: 2rem;
     }
 }

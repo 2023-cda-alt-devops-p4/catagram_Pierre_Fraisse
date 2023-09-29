@@ -1,4 +1,4 @@
 <label class="switch">
-    <input type="checkbox" [(ngModel)]="isDarkMode" (change)="toggleDarkMode()">
-    <span class="slider round"></span>
+  <input type="checkbox" [(ngModel)]="isDarkMode" (change)="toggleDarkMode()" aria-hidden="true" class="checkbox">
+  <div class="slider"></div>
 </label>

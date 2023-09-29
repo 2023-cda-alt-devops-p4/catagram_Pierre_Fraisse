@@ -1,7 +1,10 @@
 <header>
   <div class="logo"></div>
-  <app-dark-mode-toggle></app-dark-mode-toggle>
+  <app-dark-mode-toggle *ngIf="isMobile"></app-dark-mode-toggle>
   <ul class="nav-list">
+    <li class="nav-item" *ngIf="!isMobile">
+      <app-dark-mode-toggle></app-dark-mode-toggle>
+    </li>
     <li class="nav-item">
       <a routerLink="" routerLinkActive="active-page" [routerLinkActiveOptions]="{ exact: true }">Home</a>
     </li>

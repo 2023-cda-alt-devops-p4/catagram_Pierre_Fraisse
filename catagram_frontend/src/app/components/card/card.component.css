@@ -15,7 +15,7 @@
   position: relative;
   width: 90%;
   max-height: 90vh;
-  background: white;
+  background: var(--color-primary);
   padding: 2rem;
   border-radius: var(--radius-medium);
   overflow-y: auto;
@@ -53,9 +53,7 @@
 }
 
 img {
-  height: 100%;
   max-height: var(--large-images);
-  max-width: 100%;
 }
 
 p {
