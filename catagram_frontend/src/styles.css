@@ -1,6 +1,7 @@
 @font-face {
   font-family: "open-sauce";
   src: url('assets/fonts/OpenSauceOne-Regular.ttf');
+  font-display: swap;
 }
 :root {
   /*font variables*/
