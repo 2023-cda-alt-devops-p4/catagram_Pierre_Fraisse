@@ -63,6 +63,10 @@ html {
   --moon-icon: var(--sun-icon);
 }
 
+.img-container .illustration{
+  width: 100%;
+}
+
 @media (min-width: 481px) {
   html {
     font-size: var(--font-size-base);
