@@ -54,6 +54,7 @@
 
 img {
   max-height: var(--large-images);
+  max-width: 100%;
 }
 
 p {
