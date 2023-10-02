@@ -68,6 +68,10 @@ html {
   width: 100%;
 }
 
+.illustration {
+  max-width: 100%;
+}
+
 @media (min-width: 481px) {
   html {
     font-size: var(--font-size-base);
