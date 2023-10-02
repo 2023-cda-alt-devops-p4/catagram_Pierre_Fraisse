@@ -11,7 +11,7 @@ h2 {
 }
 
 img {
-  max-height: var(--medium-images);
+  height: var(--medium-images);
   border-radius: var(--radius-small);
   margin-bottom: 2rem;
 }
