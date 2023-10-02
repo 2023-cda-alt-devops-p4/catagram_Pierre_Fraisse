@@ -57,6 +57,7 @@ img {
 }
 
 p {
+  width: 100%;
   text-align: justify;
   margin-bottom: 2rem;
 }
