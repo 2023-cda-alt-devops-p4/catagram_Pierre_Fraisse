@@ -12,7 +12,7 @@
         "source": "https://www.uml-diagrams.org/class.html"
       },
       {
-        "id": 1,
+        "id": 2,
         "title": "Classe",
         "type": "Bases",
         "shortDescription": "Modèle abstrait d'objets.",
@@ -21,7 +21,7 @@
         "source": "https://www.uml-diagrams.org/class.html"
       },
       {
-        "id": 6,
+        "id": 3,
         "title": "Relations",
         "type": "Bases",
         "shortDescription": "Interactions entre les éléments.",
@@ -30,7 +30,7 @@
         "source": "https://www.uml-diagrams.org/uml-core.html#comment"
       },
       {
-        "id": 2,
+        "id": 4,
         "title": "Objet",
         "type": "Bases",
         "shortDescription": "Instance d'une classe.",
@@ -39,7 +39,7 @@
         "source": "https://www.uml-diagrams.org/object.html"
       },
       {
-        "id": 3,
+        "id": 5,
         "title": "Interface",
         "type": "Bases",
         "shortDescription": "Contrat de comportement pour les classes.",
@@ -48,7 +48,7 @@
         "source": "https://www.uml-diagrams.org/interface.html"
       },
       {
-        "id": 4,
+        "id": 6,
         "title": "Package",
         "type": "Bases",
         "shortDescription": "Regroupement d'éléments.",
@@ -57,7 +57,7 @@
         "source": "https://www.uml-diagrams.org/package-diagrams.html#package"
       },
       {
-        "id": 5,
+        "id": 7,
         "title": "Contrainte",
         "type": "Bases",
         "shortDescription": "Règle à suivre pour les éléments.",
@@ -66,7 +66,7 @@
         "source": "https://www.uml-diagrams.org/package-diagrams.html#package"
       },
       {
-        "id": 6,
+        "id": 8,
         "title": "Commentaires",
         "type": "Bases",
         "shortDescription": "Ajout d'explication, de clarifications.",
@@ -75,7 +75,7 @@
         "source": "https://www.uml-diagrams.org/uml-core.html#comment"
       },
       {
-        "id": 7,
+        "id": 9,
         "title": "Interactions",
         "type": "Bases",
         "shortDescription": "Echanges d'informations.",
@@ -84,7 +84,7 @@
         "source": "https://www.uml-diagrams.org/uml-core.html#comment"
       },
       {
-        "id": 7,
+        "id": 10,
         "title": "Stéréotype",
         "type": "Bases",
         "shortDescription": "Mécanisme d'extension.",
@@ -93,7 +93,7 @@
         "source": "https://www.uml-diagrams.org/stereotype.html"
       },
       {
-        "id": 1,
+        "id": 11,
         "title": "Diagramme de classes",
         "type": "Structurel",
         "shortDescription": "Diagramme le plus employé, exposant la structure statique d'un système.",
@@ -102,7 +102,7 @@
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
       {
-        "id": 5,
+        "id": 12,
         "title": "Diagramme d'objets",
         "type": "Structurel",
         "shortDescription": "Représentation de structures de données à un moment spécifique",
@@ -111,7 +111,7 @@
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
       {
-        "id": 6,
+        "id": 13,
         "title": "Diagramme de paquetage (package)",
         "type": "Structurel",
         "shortDescription": "Illustration des dépendances entre les différents paquetages d'un système",
@@ -120,7 +120,7 @@
         "source": "https://www.uml-diagrams.org/package-diagrams-overview.html"
       },
       {
-        "id": 4,
+        "id": 14,
         "title": "Diagramme de structure composite",
         "type": "Structurel",
         "shortDescription": "Plans de la structure interne d’un classifieur",
@@ -129,7 +129,7 @@
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
       {
-        "id": 2,
+        "id": 15,
         "title": "Diagramme de composants",
         "type": "Structurel",
         "shortDescription": "Découpage d'un système complexe en composants de taille réduite.",
@@ -138,7 +138,7 @@
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
       {
-        "id": 3,
+        "id": 16,
         "title": "Diagramme de déploiement",
         "type": "Structurel",
         "shortDescription": "Indique la structure du système lorsqu'il s'exécute.",
@@ -147,7 +147,7 @@
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
       {
-        "id": 7,
+        "id": 17,
         "title": "Diagramme de profil",
         "type": "Structurel",
         "shortDescription": "Mécanisme de personnalisation des modèles.",
@@ -156,7 +156,7 @@
         "source": "https://www.uml-diagrams.org/profile-diagrams.html"
       },
       {
-        "id": 12,
+        "id": 18,
         "title": "Diagramme de cas d'utilisation",
         "type": "Comportemental",
         "shortDescription": "Représentation des interactions entre les utilisateurs et le système",
@@ -165,7 +165,7 @@
         "source": "https://www.uml-diagrams.org/use-case-diagrams.html"
       },
       {
-        "id": 14,
+        "id": 19,
         "title": "Diagramme d'activité",
         "type": "Comportemental",
         "shortDescription": "Logique procédurale d'une activité.",
@@ -174,7 +174,7 @@
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
       {
-        "id": 11,
+        "id": 20,
         "title": "Diagramme d'état-transition (state-machine)",
         "type": "Comportemental",
         "shortDescription": "Description de l'enchainement des états d'un objet.",
@@ -183,7 +183,7 @@
         "source": "https://www.uml-diagrams.org/state-machine-diagrams.html"
       },
       {
-        "id": 13,
+        "id": 21,
         "title": "Diagramme de séquence",
         "type": "Comportemental",
         "shortDescription": "Chronologie des messages envoyés entre les acteurs, les objets et leurs instances.",
@@ -192,7 +192,7 @@
         "source": "https://www.uml-diagrams.org/sequence-diagrams.html"
       },
       {
-        "id": 10,
+        "id": 22,
         "title": "Diagramme de communication",
         "type": "Comportemental",
         "shortDescription": "Illustration des liens entre les objets",
@@ -201,7 +201,7 @@
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
       {
-        "id": 8,
+        "id": 23,
         "title": "Diagramme de temps",
         "type": "Comportemental",
         "shortDescription": "Illustration des interactions des données dans un temps donné",
@@ -210,7 +210,7 @@
         "source": "https://www.lucidchart.com/blog/fr/types-de-diagrammes-UML"
       },
       {
-        "id": 9,
+        "id": 24,
         "title": "Diagramme d'interactivité",
         "type": "Comportemental",
         "shortDescription": "Illustration du flux de contrôle entre des nœuds en interaction",
